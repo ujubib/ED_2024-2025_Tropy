@@ -1,0 +1,71 @@
+project:
+  type: book
+
+book:
+  title: "Gérer un corpus d'images avec Tropy"
+  subtitle: "UPPA - ED 481 SSH / Outils pour les humanités numériques"
+  author: 
+    - name: Julien Rabaud
+      orcid: 0000-0002-6604-9777
+      email: julien.rabaud@univ-pau.fr
+      affiliations:
+        - name: SCD, Bibliothèque de l'IPRA
+          url: https://bibliotheques.univ-pau.fr/fr/infos-pratiques/pau/bibliotheque-de-recherche-de-l-ipra.html
+        - name: CSP-NR, Gestion des données de la recherche
+          url: https://recherche.univ-pau.fr/fr/science-ouverte/donnees-de-la-recherche.html
+  date: 2024-09-24
+  favicon: "img/tropy-app-icon-1024x1024.png"
+  repo-url: "https://github.com/ujubib/ED_2024-2025_Tropy"
+  repo-subdir: "/TROPY_ED_QUARTO/"
+  repo-actions: [source, issue]
+  downloads: [pdf, epub, docx]
+  sharing: [twitter, facebook]
+  page-footer:
+    background: FloralWhite
+  margin-header: |
+    ![](/IMG/logoUPPA-RepFr.png){width='100%'}
+  sidebar:
+    style: "floating"
+    background: FloralWhite
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: journal
+    lang: fr
+    backgroundcolor: FloralWhite
+    css: styles.css
+    lightbox: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    reference-location: margin
+    number-sections: false
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+  pdf:
+    lang: fr
+    documentclass: scrreprt
+    number-sections: false
+    links-as-notes: true
+    lof: true
+    lot: true
+  epub: 
+    epub-cover-image: cover.png
+    lang: fr
+  docx:
+    lang: fr
+    toc: true
+
+
+
