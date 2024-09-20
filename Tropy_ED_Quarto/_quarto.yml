@@ -16,7 +16,7 @@ book:
   date: 2024-09-24
   favicon: "img/tropy-app-icon-1024x1024.png"
   repo-url: "https://github.com/ujubib/ED_2024-2025_Tropy"
-  repo-subdir: "/TROPY_ED_QUARTO/"
+  repo-subdir: "/Tropy_ED_Quarto/"
   repo-actions: [source, issue]
   downloads: [pdf, epub, docx]
   sharing: [twitter, facebook]
