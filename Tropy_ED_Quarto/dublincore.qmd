@@ -1,7 +1,11 @@
 ---
-title: "Les schémas de métadonnées *Dublin Core*"
-image: /IMG/DCMI-logo.svg
+title: "Des métadonnées riches"
+image: /IMG/metadata.png
 ---
+
+## Les schémas *Dublin Core*
+
+![](/IMG/Dublin-Core.png)
 
 Il existe deux schémas de métadonnées dits *Dublin Core*, tous deux disponibles par défaut dans *Tropy* : le [Dublin Core Metadata Element Set][DCES] et les [Dublin Core Metadata Terms][DCTerms].
 
@@ -90,7 +94,7 @@ Les [Dublin Core Terms][DCTerms] sont également formalisés selon des standards
 : Comparaison *[DCES]* et *[DCTerms]* {.hover}
 
 :::{.callout-note}
-### Synthèse
+### Synthèse *Dublin Core*
 - **Dublin Core Elements** est idéal pour une **description simple** et **universelle** de ressources numériques, facilitant une adoption rapide et large dans des environnements variés.
 - **Dublin Core Terms** fournit un **cadre plus élaboré**, utile pour des projets nécessitant une description **plus fine** et **spécialisée**, avec une interopérabilité accrue dans des environnements complexes comme le **web sémantique**.
 :::

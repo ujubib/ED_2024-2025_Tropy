@@ -23,7 +23,7 @@ book:
   page-footer:
     background: FloralWhite
   margin-header: |
-    ![](/IMG/logoUPPA-RepFr.png){fig-align="right" width=90%}
+    ![](/IMG/logoUPPA-RepFr.png)
   sidebar:
     style: "floating"
     background: FloralWhite
