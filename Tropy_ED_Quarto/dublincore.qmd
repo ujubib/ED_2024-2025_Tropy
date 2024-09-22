@@ -1,0 +1,96 @@
+---
+title: "Les schémas de métadonnées *Dublin Core*"
+image: /IMG/DCMI-logo.svg
+---
+
+Il existe deux schémas de métadonnées dits *Dublin Core*, tous deux disponibles par défaut dans *Tropy* : le [Dublin Core Metadata Element Set][DCES] et les [Dublin Core Metadata Terms][DCTerms].
+
+La différence entre les **Dublin Core Elements** et les **Dublin Core Terms** réside principalement dans leur étendue, leur structure, et leur niveau de formalisation. 
+
+[DCES]:https://www.dublincore.org/specifications/dublin-core/dces/
+
+[DCTerms]:https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
+
+:::: panel-tabset
+## **Dublin Core Elements**
+
+Le **Dublin Core Metadata Element Set** ([DCES]) est un **ensemble de 15 éléments** de métadonnées de base, conçus pour être utilisés de manière générale pour décrire une large gamme de ressources numériques. Ces éléments sont simples et universels, ce qui les rend largement utilisables dans différents contextes.
+
+::: {.callout-tip collapse="true"}
+### **Les 15 éléments** *Dublin Core Elements*
+     
+  1. **Title** (Titre)
+  2. **Creator** (Créateur)
+  3. **Subject** (Sujet)
+  4. **Description**
+  5. **Publisher** (Éditeur)
+  6. **Contributor** (Contributeur)
+  7. **Date**
+  8. **Type**
+  9. **Format**
+  10. **Identifier** (Identifiant)
+  11. **Source**
+  12. **Language** (Langue)
+  13. **Relation** (Relation avec d’autres ressources)
+  14. **Coverage** (Couverture géographique ou temporelle)
+  15. **Rights** (Droits)
+:::
+
+### Usage
+
+Ces éléments sont conçus pour être simples et suffisamment génériques pour s'adapter à divers environnements de gestion de métadonnées, notamment les bibliothèques, les archives, et les musées. Ils ne nécessitent pas une grande complexité ou personnalisation, et peuvent être utilisés dans de nombreuses disciplines.
+
+### Objectif
+
+Faciliter l’**interopérabilité** entre différents systèmes et rendre les ressources numériques facilement trouvables et accessibles. C'est l'ensemble de métadonnées de base recommandé pour les projets qui veulent une approche standard, mais simple.
+
+### Formalisation
+
+Les [Dublin Core Elements][DCES] font partie des **normes ISO** et sont compatibles avec les pratiques d'**interopérabilité sémantique** sur le web.
+
+## **Dublin Core Terms**
+
+Les **Dublin Core Metadata Terms** ([DCTerms]) est une **extension du Dublin Core Elements**. Il comprend non seulement les 15 éléments de base, mais aussi un ensemble beaucoup plus vaste de termes supplémentaires, incluant des **sous-éléments**, des **éléments de qualification** (qualifiers), et des **concepts plus précis** qui permettent d'enrichir la description des ressources.
+
+::: {.callout-tip collapse="true"}
+### **Structure étendue** des *DCMT*
+
+Les **Dublin Core Terms** incluent :
+
+- Les 15 éléments de base (mais sous des formes plus formalisées).
+- Des **éléments supplémentaires** comme **Audience** (Public), **Provenance** (Provenance), **Accrual Method** (Méthode d'acquisition), etc.
+- Des **qualificateurs** qui permettent de préciser davantage un élément existant. Par exemple, la **date** peut être qualifiée avec des sous-éléments comme **Date.Created** (date de création), **Date.Modified** (date de modification).
+:::
+
+### Usage
+
+Les [Dublin Core Terms][DCTerms] sont utilisés dans des contextes plus complexes ou spécialisés où il est nécessaire d’**étendre la description des métadonnées** au-delà des 15 éléments de base. Cela permet d’adapter les métadonnées à des **besoins spécifiques**, comme dans les bibliothèques numériques avancées, les archives, ou des bases de données nécessitant une structure riche.
+
+### Objectif 
+
+Fournir une **structure plus flexible et plus riche** pour décrire des ressources en utilisant des éléments plus détaillés. Il permet de mieux correspondre aux besoins spécifiques des projets tout en restant compatible avec les standards du web sémantique.
+
+### Formalisation
+
+Les [Dublin Core Terms][DCTerms] sont également formalisés selon des standards internationaux et sont souvent exprimés en **RDF** (Resource Description Framework) pour une meilleure compatibilité avec le **web sémantique**.
+
+::::
+
+**Principales différences entre *Dublin Core Elements* et *Dublin Core Terms***
+
+| **Critères**                   | **Dublin Core Elements** ([DCES])  | **Dublin Core Terms** ([DCTerms]) |
+|---------------------------------|----------------------------------|---------------------------------|
+| **Nombre d'éléments**           | 15 éléments de base              | Comprend les 15 éléments + des termes étendus et qualificateurs |
+| **Simplicité**                  | Simple, général                  | Plus complexe, flexible et spécifique |
+| **Utilisation**                 | Projets de description de ressources de base | Projets nécessitant des métadonnées plus riches et complexes |
+| **Interopérabilité**            | Conçu pour des utilisations larges et génériques | Plus détaillé, mais compatible avec des systèmes plus complexes |
+| **Qualification des éléments**  | Pas de qualificateurs             | Supporte des qualificateurs pour une meilleure précision |
+| **Exemples d'utilisation**      | Bibliothèques, archives numériques simples | Bibliothèques numériques avancées, projets sémantiques, bases de données spécialisées |
+
+: Comparaison *[DCES]* et *[DCTerms]* {.hover}
+
+:::{.callout-note}
+### Synthèse
+- **Dublin Core Elements** est idéal pour une **description simple** et **universelle** de ressources numériques, facilitant une adoption rapide et large dans des environnements variés.
+- **Dublin Core Terms** fournit un **cadre plus élaboré**, utile pour des projets nécessitant une description **plus fine** et **spécialisée**, avec une interopérabilité accrue dans des environnements complexes comme le **web sémantique**.
+:::

@@ -1,0 +1,12 @@
+---
+title: "Déposer ses images dans *Nakala*"
+image: /IMG/nakala.png
+---
+
+
+
+[Nakala](https://nakala.fr) est l'entrepôt de données de [HumaNum](https://www.huma-num.fr). Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).
+
+Nakala a publié une [fiche pdf](https://documentation.huma-num.fr/media/nakala/Guide_depot_Nakala_mars-2024.pdf) d'aide au dépôt (mars 2024)
+
+![](/IMG/Guide_depot_Nakala_mars-2024.pdf){width=100% height=600}

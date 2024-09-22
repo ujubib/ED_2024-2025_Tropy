@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gérer un corpus d’images avec Tropy - Réferences bibliographiques</title>
+<title>Gérer un corpus d’images avec Tropy - Annexe B — Autour des standards IIIF</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,7 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./iiif.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./fair.html" rel="prev">
 <link href="./IMG/tropy-app-icon-1024x1024.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -96,7 +78,7 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -105,7 +87,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fair.html">Appendices</a></li><li class="breadcrumb-item"><a href="./references.html">Réferences bibliographiques</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fair.html">Appendices</a></li><li class="breadcrumb-item"><a href="./iiif.html"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -284,12 +266,12 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./iiif.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></a>
+  <a href="./iiif.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Réferences bibliographiques</span></a>
   </div>
 </li>
@@ -301,20 +283,23 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><a href=".\IMG/logoUPPA-RepFr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src=".\IMG/logoUPPA-RepFr.png" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:90.0%"></a></p>
-</figure>
-</div>
+<p><a href=".\IMG/logoUPPA-RepFr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src=".\IMG/logoUPPA-RepFr.png" class="img-fluid" style="width:90.0%"></a></p>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#importer-dans-tropy-des-documents-gallica-via-le-module-iiif" id="toc-importer-dans-tropy-des-documents-gallica-via-le-module-iiif" class="nav-link active" data-scroll-target="#importer-dans-tropy-des-documents-gallica-via-le-module-iiif">Importer dans Tropy des documents Gallica via le module IIIF</a></li>
+  <li><a href="#bonus" id="toc-bonus" class="nav-link" data-scroll-target="#bonus">Bonus</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fair.html">Appendices</a></li><li class="breadcrumb-item"><a href="./references.html">Réferences bibliographiques</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fair.html">Appendices</a></li><li class="breadcrumb-item"><a href="./iiif.html"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Réferences bibliographiques</h1>
+<h1 class="title">Annexe B — Autour des standards <strong>IIIF</strong></h1>
 </div>
 
 
@@ -331,44 +316,54 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" class="references csl-bib-body" role="list">
-<div id="ref-heimburgerGererSesPhotos2017" class="csl-entry" role="listitem">
-<span class="smallcaps">Heimburger</span>, Franziska. <span>«&nbsp;Gérer ses
-photos d’archives avec Tropy&nbsp;»</span>, Blog <em>La boîte à outils des
-historien·ne·s</em>. 2017. En ligne : <a href="https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/">https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/</a>
-[consulté le 20 septembre 2024].
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<div id="ref-innocenteTropyGestionnairePhotos2017" class="csl-entry" role="listitem">
-<span class="smallcaps">Innocente</span>, Florian. <span>«&nbsp;Tropy, un
-gestionnaire de photos d’archives pour les chercheurs&nbsp;»</span>, Blog
-<em>MacGeneration</em>. 2017. En ligne : <a href="https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197">https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197</a>
-[consulté le 20 septembre 2024].
-</div>
-<div id="ref-larguecheTropyLogicielPour2021" class="csl-entry" role="listitem">
-<span class="smallcaps">Larguèche</span>, Aladin. <span>«&nbsp;Tropy : un
-logiciel pour organiser des corpus iconographiques&nbsp;»</span>, Blog <em>Le
-Carreau de la BULAC</em>. 2021. En ligne : <a href="https://bulac.hypotheses.org/33406">https://bulac.hypotheses.org/33406</a>
-[consulté le 20 septembre 2024].
-</div>
-<div id="ref-lucchesiNewProjectTypes2023" class="csl-entry" role="listitem">
-<span class="smallcaps">Lucchesi</span>, Anita et Douglas <span class="smallcaps">McRae</span>. <span>«&nbsp;New Project Types in Tropy
-1.13&nbsp;»</span>, Blog <em>Tropy blog</em>. 2023. En ligne : <a href="https://tropy.org/blog/new-project-types-in-tropy-1-13">https://tropy.org/blog/new-project-types-in-tropy-1-13</a>
-[consulté le 20 septembre 2024].
-</div>
-<div id="ref-mourlon-druolSixMonthsUsing2019" class="csl-entry" role="listitem">
-<span class="smallcaps">Mourlon-Druol</span>, Emmanuel. <span>«&nbsp;Six
-months of using Tropy&nbsp;»</span>, Blog <em>Emmanuel Mourlon-Druol</em>.
-2019. En ligne : <a href="https://www.e-mourlon-druol.com/six-months-of-using-tropy/">https://www.e-mourlon-druol.com/six-months-of-using-tropy/</a>
-[consulté le 20 septembre 2024].
-</div>
-<div id="ref-valmalleUtiliserTropyPour2021" class="csl-entry" role="listitem">
-<span class="smallcaps">Valmalle</span>, Delphine. <span>«&nbsp;Utiliser
-Tropy pour la gestion de ses photos d’archives&nbsp;»</span>, Blog
-<em>Geneatech</em>. 2021. En ligne : <a href="https://www.youtube.com/watch?v=AiPqbdwP67E">https://www.youtube.com/watch?v=AiPqbdwP67E</a>
-[consulté le 22 septembre 2024].
+<div class="callout-body-container">
+<p><strong>IIIF</strong> (<strong>I</strong><em>nternational</em> <strong>I</strong><em>mage</em> <strong>I</strong><em>nteroperability</em> <strong>F</strong><em>ramework</em>™) est un ensemble de standards qui définissent un cadre d’interopérabilité pour la diffusion des images numériques sur le Web.</p>
 </div>
 </div>
+</div>
+<p><strong>IIIF</strong> permet la manipulation homogène d’images indépendamment de leurs localisations physiques et des établissements qui les hébergent. (utilisé notamment sur Europeana<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> , Gallica<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, Nakala, de nombreux serveurs Omeka…)</p>
+<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;<a href="https://pro.europeana.eu/page/iiif">Europeana IIIF APIs</a></p><p><sup>2</sup>&nbsp;<a href="https://api.bnf.fr/fr/api-iiif-de-recuperation-des-images-de-gallica">API IIIF de récupération des images de Gallica</a></p></div><ul>
+<li><p>Une <em>excellente</em> <a href="https://iiif.biblissima.fr">documentation</a> chez Biblissima.</p></li>
+<li><p>Une très large collection de ressources sur le GitHub du consortium : <a href="https://github.com/IIIF/awesome-iiif">Awesome International Image Interoperability Framework (IIIF)</a></p></li>
+<li><p>La visionneuse <a href="https://projectmirador.org">Mirador</a></p></li>
+</ul>
+<section id="importer-dans-tropy-des-documents-gallica-via-le-module-iiif" class="level2">
+<h2 class="anchored" data-anchor-id="importer-dans-tropy-des-documents-gallica-via-le-module-iiif">Importer dans Tropy des documents Gallica via le module IIIF</h2>
+<ul>
+<li><p>API IIIF de récupération des images de Gallica :</p>
+<ul>
+<li><p>Base URL : <code>gallica.bnf.fr/</code></p></li>
+<li><p>Manifest : <code>iiif/{ark}/manifest.json</code></p></li>
+<li><p>Modèle : <code>gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json</code></p></li>
+<li><p>Exemples :</p>
+<ul>
+<li><code>gallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json</code></li>
+<li><code>gallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json</code></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="bonus" class="level2">
+<h2 class="anchored" data-anchor-id="bonus">Bonus</h2>
+<ul>
+<li><a href="https://numrha.hypotheses.org/1019">Publier une image avec ses annotations : utilisation de Tesselle en histoire de l’art</a> - Antoine Courtin (<em>Numérique et recherche en histoire de l’art</em>, 2020).
+<ul>
+<li><a href="https://medialab.github.io/tesselle/#/">Tesselle</a> - <em>médialab SciencesPo</em></li>
+</ul></li>
+<li>Avec des sources <em>iiif</em> : <a href="https://adno.app/fr/">Adno</a>
+<ul>
+<li><a href="https://adno.app/fr/example/">Exemples</a></li>
+<li><a href="https://adno.app/fr/docs/prologue/quick-start/">Documentation</a></li>
+</ul></li>
+</ul>
 
+
+</section>
 
 
 </main> <!-- /main -->
@@ -781,15 +776,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./iiif.html" class="pagination-link  aria-label=" &lt;span="" des="" standards="" **iiif**&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></span>
+      <a href="./fair.html" class="pagination-link  aria-label=" &lt;span="" des="" données="" **fair**&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Produire des données <strong>FAIR</strong></span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link" aria-label="Réferences bibliographiques">
+        <span class="nav-page-text">Réferences bibliographiques</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/references.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -4,39 +4,325 @@
     "href": "index.html",
     "title": "Gérer un corpus d’images avec Tropy",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Tropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\nTropy est un logiciel libre (open source) conçu pour organiser et gérer des collections d’images. Développé par la fondation Digital Scholar (qui développe aussi Zotero et Omeka), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales1.\n1 Il est aussi apprécié par les usager·ère·s plus grand public des services d’archives comme les généalogistes. (voir Valmalle, 2021)Il permet aux chercheur·es de classer, anoter, et organiser des photos et des documents numérisés, comme des archives ou des manuscrits, en vue de faciliter leur utilisation et leur éventuelle publication.\nPrincipales fonctionalités :\n\nCréation de projets pour organiser les images par collections et catégories (tags).\nAjout de métadonnées détaillées à chaque objet (item), image et zone d’image (sélection).\nPossibilité d’associer des annotations aux images et aux sélections.\nExportation des données sous forme de fichiers compatibles avec le web sémantique (format JSON-LD par défaut2) ou avec d’autres logiciels (comme Zotero ou OmekaS avec les extensions dédiées).\n\n\n\n2 documentation : \nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\n\n\n\nValmalle, Delphine. « Utiliser Tropy pour la gestion de ses photos d’archives », Blog Geneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E [consulté le 22 septembre 2024].",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Accueil</span>"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
+    "objectID": "PourquoiTropy.html",
+    "href": "PourquoiTropy.html",
+    "title": "Pourquoi Tropy",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. « Literate Programming ». Comput. J. 27 (2): 97‑111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Parce que\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDéposer ses images dans Nakala\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes schémas de métadonnées Dublin Core\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Pourquoi Tropy"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "Summary",
+    "objectID": "dublincore.html",
+    "href": "dublincore.html",
+    "title": "Les schémas de métadonnées Dublin Core",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Il existe deux schémas de métadonnées dits Dublin Core, tous deux disponibles par défaut dans Tropy : le Dublin Core Metadata Element Set et les Dublin Core Metadata Terms.\nLa différence entre les Dublin Core Elements et les Dublin Core Terms réside principalement dans leur étendue, leur structure, et leur niveau de formalisation.\n\nDublin Core ElementsDublin Core Terms\n\n\nLe Dublin Core Metadata Element Set (DCES) est un ensemble de 15 éléments de métadonnées de base, conçus pour être utilisés de manière générale pour décrire une large gamme de ressources numériques. Ces éléments sont simples et universels, ce qui les rend largement utilisables dans différents contextes.\n\n\n\n\n\n\nLes 15 éléments Dublin Core Elements\n\n\n\n\n\n\nTitle (Titre)\nCreator (Créateur)\nSubject (Sujet)\nDescription\nPublisher (Éditeur)\nContributor (Contributeur)\nDate\nType\nFormat\nIdentifier (Identifiant)\nSource\nLanguage (Langue)\nRelation (Relation avec d’autres ressources)\nCoverage (Couverture géographique ou temporelle)\nRights (Droits)\n\n\n\n\n\nUsage\nCes éléments sont conçus pour être simples et suffisamment génériques pour s’adapter à divers environnements de gestion de métadonnées, notamment les bibliothèques, les archives, et les musées. Ils ne nécessitent pas une grande complexité ou personnalisation, et peuvent être utilisés dans de nombreuses disciplines.\n\n\nObjectif\nFaciliter l’interopérabilité entre différents systèmes et rendre les ressources numériques facilement trouvables et accessibles. C’est l’ensemble de métadonnées de base recommandé pour les projets qui veulent une approche standard, mais simple.\n\n\nFormalisation\nLes Dublin Core Elements font partie des normes ISO et sont compatibles avec les pratiques d’interopérabilité sémantique sur le web.\n\n\n\nLes Dublin Core Metadata Terms (DCTerms) est une extension du Dublin Core Elements. Il comprend non seulement les 15 éléments de base, mais aussi un ensemble beaucoup plus vaste de termes supplémentaires, incluant des sous-éléments, des éléments de qualification (qualifiers), et des concepts plus précis qui permettent d’enrichir la description des ressources.\n\n\n\n\n\n\nStructure étendue des DCMT\n\n\n\n\n\nLes Dublin Core Terms incluent :\n\nLes 15 éléments de base (mais sous des formes plus formalisées).\nDes éléments supplémentaires comme Audience (Public), Provenance (Provenance), Accrual Method (Méthode d’acquisition), etc.\nDes qualificateurs qui permettent de préciser davantage un élément existant. Par exemple, la date peut être qualifiée avec des sous-éléments comme Date.Created (date de création), Date.Modified (date de modification).\n\n\n\n\n\nUsage\nLes Dublin Core Terms sont utilisés dans des contextes plus complexes ou spécialisés où il est nécessaire d’étendre la description des métadonnées au-delà des 15 éléments de base. Cela permet d’adapter les métadonnées à des besoins spécifiques, comme dans les bibliothèques numériques avancées, les archives, ou des bases de données nécessitant une structure riche.\n\n\nObjectif\nFournir une structure plus flexible et plus riche pour décrire des ressources en utilisant des éléments plus détaillés. Il permet de mieux correspondre aux besoins spécifiques des projets tout en restant compatible avec les standards du web sémantique.\n\n\nFormalisation\nLes Dublin Core Terms sont également formalisés selon des standards internationaux et sont souvent exprimés en RDF (Resource Description Framework) pour une meilleure compatibilité avec le web sémantique.\n\n\n\n\nPrincipales différences entre Dublin Core Elements et Dublin Core Terms\n\nComparaison DCES et DCTerms\n\n\nCritères\nDublin Core Elements (DCES)\nDublin Core Terms (DCTerms)\n\n\n\n\nNombre d’éléments\n15 éléments de base\nComprend les 15 éléments + des termes étendus et qualificateurs\n\n\nSimplicité\nSimple, général\nPlus complexe, flexible et spécifique\n\n\nUtilisation\nProjets de description de ressources de base\nProjets nécessitant des métadonnées plus riches et complexes\n\n\nInteropérabilité\nConçu pour des utilisations larges et génériques\nPlus détaillé, mais compatible avec des systèmes plus complexes\n\n\nQualification des éléments\nPas de qualificateurs\nSupporte des qualificateurs pour une meilleure précision\n\n\nExemples d’utilisation\nBibliothèques, archives numériques simples\nBibliothèques numériques avancées, projets sémantiques, bases de données spécialisées\n\n\n\n\n\n\n\n\n\nSynthèse\n\n\n\n\nDublin Core Elements est idéal pour une description simple et universelle de ressources numériques, facilitant une adoption rapide et large dans des environnements variés.\nDublin Core Terms fournit un cadre plus élaboré, utile pour des projets nécessitant une description plus fine et spécialisée, avec une interopérabilité accrue dans des environnements complexes comme le web sémantique.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Pourquoi Tropy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Les schémas de métadonnées *Dublin Core*</span>"
+    ]
+  },
+  {
+    "objectID": "GuideNakala.html",
+    "href": "GuideNakala.html",
+    "title": "Déposer ses images dans Nakala",
+    "section": "",
+    "text": "Nakala est l’entrepôt de données de HumaNum. Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).\nNakala a publié une fiche pdf d’aide au dépôt (mars 2024)",
+    "crumbs": [
+      "Pourquoi Tropy",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Déposer ses images dans *Nakala*</span>"
+    ]
+  },
+  {
+    "objectID": "prise-en-main.html",
+    "href": "prise-en-main.html",
+    "title": "Prise en main",
+    "section": "",
+    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nModèles de saisie\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "Prise en main"
+    ]
+  },
+  {
+    "objectID": "tropy-projet.html",
+    "href": "tropy-projet.html",
+    "title": "Créer un projet",
+    "section": "",
+    "text": "Menu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLui donner un nom\nChoisir le type (voir New Project Types in Tropy 1.13)\n\nStandard : Copie les photos dans le dossier du projet à l’import\nAdvanced : Lien vers les photos sur votre disque (/!\\)\n\n\n\n\n\nMenu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Créer un projet</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html",
+    "href": "tropy-modeles.html",
+    "title": "Modèles de saisie",
+    "section": "",
+    "text": "3 types",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html#types",
+    "href": "tropy-modeles.html#types",
+    "title": "Modèles de saisie",
+    "section": "",
+    "text": "Objet\nPhoto\nSélection",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html#documentation-officielle",
+    "href": "tropy-modeles.html#documentation-officielle",
+    "title": "Modèles de saisie",
+    "section": "Documentation officielle",
+    "text": "Documentation officielle\n\nWhat is metadata and how do I use it?\nGetting started with templates",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html#exemple-du-projet-blot",
+    "href": "tropy-modeles.html#exemple-du-projet-blot",
+    "title": "Modèles de saisie",
+    "section": "Exemple du Projet Blot",
+    "text": "Exemple du Projet Blot\n\nTemplate BlotPhotosV2.ttp : Télécharger\nDescription dans le wiki du projet",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html",
+    "href": "tropy-import.html",
+    "title": "Importer des photos",
+    "section": "",
+    "text": "Formats supportés",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#formats-supportés",
+    "href": "tropy-import.html#formats-supportés",
+    "title": "Importer des photos",
+    "section": "",
+    "text": "JPG/JPEG\nPNG\nSVG\nTIFF\nGIF\nPDF\nJP2000\nWEBP\nHEIC\nAVIF",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#menu-fichier-importer-photos-dossier",
+    "href": "tropy-import.html#menu-fichier-importer-photos-dossier",
+    "title": "Importer des photos",
+    "section": "Menu: Fichier > Importer > Photos | Dossier",
+    "text": "Menu: Fichier &gt; Importer &gt; Photos | Dossier\n\nPenser à définir un profil d’import par défaut avant.",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#glisser-déposer",
+    "href": "tropy-import.html#glisser-déposer",
+    "title": "Importer des photos",
+    "section": "Glisser-déposer",
+    "text": "Glisser-déposer\n\nMême recommandation",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#surveillance-dun-dossier",
+    "href": "tropy-import.html#surveillance-dun-dossier",
+    "title": "Importer des photos",
+    "section": "Surveillance d’un dossier",
+    "text": "Surveillance d’un dossier\n\nMenu: Edition &gt; Préférences… | onglet Projet -&gt; Watch folder",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#plugins",
+    "href": "tropy-import.html#plugins",
+    "title": "Importer des photos",
+    "section": "Plugins",
+    "text": "Plugins\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (template) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-export.html",
+    "href": "tropy-export.html",
+    "title": "Exporter (projet, photos, données)",
+    "section": "",
+    "text": "Préférences &gt; Export",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-export.html#menu-exporter",
+    "href": "tropy-export.html#menu-exporter",
+    "title": "Exporter (projet, photos, données)",
+    "section": "Menu Exporter",
+    "text": "Menu Exporter\n\nJSON-LD : LD pour Linked Data\nPDF\nPlugins",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-export.html#plugins",
+    "href": "tropy-export.html#plugins",
+    "title": "Exporter (projet, photos, données)",
+    "section": "Plugins",
+    "text": "Plugins\n\nArchive : Photos et métadonnées dans un .zip\nCSV\nOmeka S",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+    ]
+  },
+  {
+    "objectID": "ressources-tropy.html",
+    "href": "ressources-tropy.html",
+    "title": "Ressources sur Tropy",
+    "section": "",
+    "text": "Canaux officiels\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtensions\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutoriels\n\n\n\n\n\n\n\n\n\n\n\n\n\nVidéos\n\n\n\n\n\n\n\n\n\n\n\n\n\nBillets de blog\n\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "Ressources sur Tropy"
+    ]
+  },
+  {
+    "objectID": "tropy-officiel.html",
+    "href": "tropy-officiel.html",
+    "title": "Canaux officiels",
+    "section": "",
+    "text": "Documentation\nSupport (forum)\nVimeo\nYoutube\nX/Twitter\nGitHub (code source, templates…)",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Canaux officiels</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-extensions.html",
+    "href": "tropy-extensions.html",
+    "title": "Extensions",
+    "section": "",
+    "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Extensions</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-tutos.html",
+    "href": "tropy-tutos.html",
+    "title": "Tutoriels",
+    "section": "",
+    "text": "Table des Tutoriels Tropy\n\n\n\n\n\n\nAuteur\nlien\n\n\n\n\nBenjamin Lailler\nTutoriel Tropy\n\n\nStretching numérique 2023\nGérer ses photos d’archives avec Tropy\n\n\nYork Library\nHandout - Tropy and Archival Fieldwork (2 p.)\n\n\nGeorge Mason University Library\nInfoguide Tropy\n\n\nSchlesinger Library on the History of Women in America - Harvard University\nTropy Guide\n\n\nBULAC 2022-04\nSupport de formation - Tropy\n\n\nUniversité de Lille - Pole-Num-Scrums-Skills\nTropy | gestion d’images\n\n\nRennes 2\nGérer ses photos de recherche avec Tropy",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Tutoriels</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-videos.html",
+    "href": "tropy-videos.html",
+    "title": "Vidéos",
+    "section": "",
+    "text": "Le 16 juin 2020, L’équipe de Tropy (Abby Mullen) a tenu un webinaire de type Tropy 101 [Youtube - 1h05]\n\nTropy chanel : Metadata Templates in Tropy [Youtube - 10 mn]\n\n\n\n\n\n\nProjet EVEille : Séance d’initiation à Tropy, animée par Benoît Roux, juin 2021 [e-diffusion UHA - 1h28]\n\n(Valmalle, 2021) Geneatech : Utiliser Tropy pour la gestion de ses photos d’archive [Youtube - 17 mn]\n\n\n\n\n\n\n\n\nValmalle, Delphine. « Utiliser Tropy pour la gestion de ses photos d’archives », Blog Geneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E [consulté le 22 septembre 2024].",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Vidéos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-blogs.html",
+    "href": "tropy-blogs.html",
+    "title": "Billets de blog",
+    "section": "",
+    "text": "(Heimburger, 2017) Gérer ses photos d’archives avec Tropy - Franziska Heimburger - La boîte à outils des historien·ne·s (2017)\n(Innocente, 2017) Tropy, un gestionnaire de photos d’archives pour les chercheurs - Florian Innocente, MacGeneration (2017)\n(Mourlon-Druol, 2019) Six months of using Tropy - Emmanuel Mourlon-Druol (2019)\n(Larguèche, 2021) Tropy : un logiciel pour organiser des corpus iconographiques - BULAC (2021)\n(Lucchesi et al., 2023) New Project Types in Tropy 1.13 - Tropy Blog (2023-03-31)\n\n\n\n\n\nHeimburger, Franziska. « Gérer ses photos d’archives avec Tropy », Blog La boîte à outils des historien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/ [consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un gestionnaire de photos d’archives pour les chercheurs », Blog MacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197 [consulté le 20 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un logiciel pour organiser des corpus iconographiques », Blog Le Carreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406 [consulté le 20 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy 1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13 [consulté le 20 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six months of using Tropy », Blog Emmanuel Mourlon-Druol. 2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/ [consulté le 20 septembre 2024].",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Billets de blog</span>"
+    ]
+  },
+  {
+    "objectID": "fair.html",
+    "href": "fair.html",
+    "title": "Annexe A — Produire des données FAIR",
+    "section": "",
+    "text": "Inspirés par le 5-Star Open Data proné par Tim-Berners Lee, mis en forme par Michael Hausenblas sur ce site : http://5stardata.info/fr/ [22 janvier 2012].\n\n\n\n\n\n\n\nLes étapes 5-Star OpenData\n\n\n\n\n\n\nIllustration des étapes 5-Star OpenData\n\n\n\n\n\n\nétoiles\nétape\n\n\n\n\n★\nPubliez vos données sur le Web (peu importe leur format) avec une licence ouverte\n\n\n★★\nPubliez-les en tant que données structurées (par exemple, un document Excel au lieu d’une image scannée d’un tableau)\n\n\n★★★\nPubliez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu’un Excel)\n\n\n★★★★\nUtilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci\n\n\n★★★★★\nliez vos données à d’autres données pour y ajouter du contexte\n\n\n\n\n\n\n\nDécrits ici, d’aprèsThe FAIR Guiding Principles for Scientific Data Management and Stewardship. DOI\n\n\nThe principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).\n\n\nFindableAccessibleInteroperableReusable\n\n\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource\n\n\n\nOnce the user finds the required data, she/he/they need to know how can they be accessed, possibly including authentication and authorisation.\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\n\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\n\nA2. Metadata are accessible, even when the data are no longer available\n\n\n\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data\n\n\n\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\n\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Produire des données **FAIR**</span>"
+    ]
+  },
+  {
+    "objectID": "iiif.html",
+    "href": "iiif.html",
+    "title": "Annexe B — Autour des standards IIIF",
+    "section": "",
+    "text": "Importer dans Tropy des documents Gallica via le module IIIF",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
+    ]
+  },
+  {
+    "objectID": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "href": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "title": "Annexe B — Autour des standards IIIF",
+    "section": "",
+    "text": "API IIIF de récupération des images de Gallica :\n\nBase URL : gallica.bnf.fr/\nManifest : iiif/{ark}/manifest.json\nModèle : gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json\nExemples :\n\ngallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json\ngallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
+    ]
+  },
+  {
+    "objectID": "iiif.html#bonus",
+    "href": "iiif.html#bonus",
+    "title": "Annexe B — Autour des standards IIIF",
+    "section": "Bonus",
+    "text": "Bonus\n\nPublier une image avec ses annotations : utilisation de Tesselle en histoire de l’art - Antoine Courtin (Numérique et recherche en histoire de l’art, 2020).\n\nTesselle - médialab SciencesPo\n\nAvec des sources iiif : Adno\n\nExemples\nDocumentation",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
     ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "References",
+    "title": "Réferences bibliographiques",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Heimburger, Franziska. « Gérer ses\nphotos d’archives avec Tropy », Blog La boîte à outils des\nhistorien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/\n[consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un\ngestionnaire de photos d’archives pour les chercheurs », Blog\nMacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197\n[consulté le 20 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un\nlogiciel pour organiser des corpus iconographiques », Blog Le\nCarreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406\n[consulté le 20 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy\n1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13\n[consulté le 20 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six\nmonths of using Tropy », Blog Emmanuel Mourlon-Druol.\n2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/\n[consulté le 20 septembre 2024].\n\n\nValmalle, Delphine. « Utiliser\nTropy pour la gestion de ses photos d’archives », Blog\nGeneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E\n[consulté le 22 septembre 2024].",
     "crumbs": [
-      "References"
+      "Appendices",
+      "Réferences bibliographiques"
     ]
   }
 ]

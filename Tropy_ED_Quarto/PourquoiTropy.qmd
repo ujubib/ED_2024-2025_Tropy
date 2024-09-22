@@ -1,0 +1,16 @@
+---
+title: Pourquoi Tropy
+listing: 
+  id: pourquoi
+  fields: [title, image]
+  type: grid
+  image-height: 210px
+  contents:
+    - dublincore.qmd
+    - GuideNakala.qmd
+---
+
+Parce que
+
+:::{pourquoi}
+:::

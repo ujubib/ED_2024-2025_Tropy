@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,8 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
-<link href="./img/tropy-app-icon-1024x1024.png" rel="icon" type="image/png">
+<link href="./IMG/tropy-app-icon-1024x1024.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -78,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Accueil</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -157,44 +175,142 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Accueil</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./PourquoiTropy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pourquoi Tropy</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  <a href="./dublincore.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Les schémas de métadonnées <em>Dublin Core</em></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="./GuideNakala.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Déposer ses images dans <em>Nakala</em></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./prise-en-main.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prise en main</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-projet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Créer un projet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-modeles.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Modèles de saisie</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-import.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Importer des photos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-export.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exporter (projet, photos, données)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./ressources-tropy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ressources sur Tropy</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-officiel.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Canaux officiels</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-extensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Extensions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-tutos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tutoriels</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-videos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Vidéos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tropy-blogs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Billets de blog</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Produire des données <strong>FAIR</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iiif.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Autour des standards <strong>IIIF</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+ <span class="menu-text">Réferences bibliographiques</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><a href=".\IMG/logoUPPA-RepFr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src=".\IMG/logoUPPA-RepFr.png" class="img-fluid" style="width:100.0%"></a></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href=".\IMG/logoUPPA-RepFr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src=".\IMG/logoUPPA-RepFr.png" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:90.0%"></a></p>
+</figure>
+</div>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table des matières</h2>
-   
-  <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -242,13 +358,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=".\IMG/tropy_items-gallerie.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="accueil" title="Tropy - Vue items en gallerie"><img src=".\IMG/tropy_items-gallerie.png" class="img-fluid figure-img" alt="Tropy - Vue items en gallerie"></a></p>
+<figcaption>Tropy - Vue items en gallerie</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG/tropy_items-liste.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="accueil" title="Tropy - Vue items en liste"><img src="IMG/tropy_items-liste.png" class="img-fluid figure-img" alt="Tropy - Vue items en liste"></a></p>
+<figcaption>Tropy - Vue items en liste</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG/tropy_vue-photo.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="accueil" title="Tropy - Photo et sélections"><img src="IMG/tropy_vue-photo.png" title="capture d'écran - affichage d'une photo et de ses sélections" class="img-fluid figure-img" alt="Tropy - Photo et sélections"></a></p>
+<figcaption>Tropy - Photo et sélections</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p><a href="https://tropy.org"><strong>Tropy</strong></a> est un logiciel libre (<em>open source</em>) conçu pour organiser et gérer des collections d’images. Développé par la fondation <a href="https://digitalscholar.org/">Digital Scholar</a> (qui développe aussi <a href="https://www.zotero.org/">Zotero</a> et <a href="https://omeka.org/">Omeka</a>), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;Il est aussi apprécié par les usager·ère·s plus grand public des services d’archives comme les généalogistes. <span class="citation" data-cites="valmalleUtiliserTropyPour2021">(voir <a href="references.html#ref-valmalleUtiliserTropyPour2021" role="doc-biblioref">Valmalle, 2021</a>)</span></p></div><p>Il permet aux chercheur·es de <strong>classer</strong>, <strong>anoter</strong>, et <strong>organiser</strong> des photos et des documents numérisés, comme des archives ou des manuscrits, en vue de faciliter leur utilisation et leur éventuelle publication.</p>
+<p><strong>Principales fonctionalités</strong> :</p>
+<ul>
+<li>Création de <strong>projets</strong> pour organiser les images par <strong>collections</strong> et catégories (<strong>tags</strong>).</li>
+<li>Ajout de <strong>métadonnées</strong> détaillées à chaque objet (<em>item</em>), image et zone d’image (sélection).</li>
+<li>Possibilité d’associer des <strong>annotations</strong> aux images et aux sélections.</li>
+<li><strong>Exportation des données</strong> sous forme de fichiers compatibles avec le web sémantique (format <code>JSON-LD</code> par défaut<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>) ou avec d’autres logiciels (comme <em>Zotero</em> ou <em>OmekaS</em> avec les <a href="./tropy-extensions.html">extensions</a> dédiées).</li>
+</ul>
 
 
-</section>
+<div class="no-row-height column-margin column-container"><p><sup>2</sup>&nbsp;documentation : <a href="https://json-ld.org/" title="JSON-LD"><img style="border:0px;" width="88" src="https://json-ld.org/images/json-ld-button-88.png" alt="JSON-LD-logo-88"></a></p></div><div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-2">Tropy - Vue items en gallerie</span>
+<span class="glightbox-desc lightbox-desc-3">Tropy - Vue items en liste</span>
+<span class="glightbox-desc lightbox-desc-4">Tropy - Photo et sélections</span>
+</div>
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-valmalleUtiliserTropyPour2021" class="csl-entry" role="listitem">
+<span class="smallcaps">Valmalle</span>, Delphine. <span>«&nbsp;Utiliser Tropy pour la gestion de ses photos d’archives&nbsp;»</span>, Blog <em>Geneatech</em>. 2021. En ligne : <a href="https://www.youtube.com/watch?v=AiPqbdwP67E">https://www.youtube.com/watch?v=AiPqbdwP67E</a> [consulté le 22 septembre 2024].
+</div>
+</div>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -658,17 +820,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Introduction</span>">
-        <span class="nav-page-text"><span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -1,0 +1,19 @@
+---
+listing:
+  id: main
+  sort: "date"
+  fields: [title, image]
+  type: grid
+  image-height: 200px
+  grid-columns: 2
+  contents:
+    - tropy-projet.qmd
+    - tropy-modeles.qmd
+    - tropy-import.qmd
+    - tropy-export.qmd
+---
+
+# Prise en main
+
+:::{#main}
+:::

@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/PourquoiTropy.html",
+    "items": [
+      "/GuideNakala.html",
+      "/dublincore.html"
+    ]
+  },
+  {
+    "listing": "/prise-en-main.html",
+    "items": [
+      "/tropy-projet.html",
+      "/tropy-modeles.html",
+      "/tropy-import.html",
+      "/tropy-export.html"
+    ]
+  },
+  {
+    "listing": "/ressources-tropy.html",
+    "items": [
+      "/tropy-officiel.html",
+      "/tropy-extensions.html",
+      "/tropy-tutos.html",
+      "/tropy-videos.html",
+      "/tropy-blogs.html"
+    ]
+  }
+]
