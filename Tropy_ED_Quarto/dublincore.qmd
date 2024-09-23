@@ -1,7 +1,10 @@
 ---
-title: "Des métadonnées riches"
 image: /IMG/metadata.png
 ---
+
+# Des métadonnées riches...
+
+> Dans la documentation de Tropy : [What is metadata and how do I use it?](https://docs.tropy.org/before-you-begin/metadata)
 
 ## Que sont les métadonnées ?
 
@@ -15,7 +18,7 @@ Un **schéma de métadonnées** est un **ensemble structuré de règles et de pr
 
 Un schéma de métadonnées est une **structure standardisée** qui aide à **organiser et harmoniser** les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.
 
-Dans Tropy, des schémas de métadonnées comme les **Dublin Core**, **Exif**, ou **Europeana Data Model (EDM)** sont chargés par défaut. En fonction des besoins de votre projet et du type d'objets que vous décrivez, vous avez également la possibilité de **personnaliser** ou **importer** vos propres schémas selon des standards adaptés à vos recherches (comme [CIDOC-CRM](https://www.cidoc-crm.org), [VRA Core](https://www.vraweb.org/vra-core-data-standard), [Bibframe](https://www.loc.gov/bibframe/docs/index.html)...).
+Dans Tropy, des schémas de métadonnées comme les **Dublin Core**, **Exif**, ou **Europeana Data Model (EDM)** sont chargés par défaut. En fonction des besoins de votre projet et du type d'objets que vous décrivez, vous avez également la possibilité de **personnaliser** ou **importer** vos propres schémas selon des standards adaptés à vos recherches (comme [CIDOC-CRM](https://www.cidoc-crm.org), [VRA Core](https://www.vraweb.org/vra-core-data-standard)...).
 
 
 ## Les schémas *Dublin Core*
@@ -147,4 +150,13 @@ EXIF est un standard de métadonnées techniques utilisé principalement dans le
 La page *Wikipedia* [Exchangeable image file format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format) donne un [exemple](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Exemple) concret et la [liste des principales métadonnées EXIF](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Liste_des_principales_m%C3%A9tadonn%C3%A9es_EXIF).
 
 Ces propriétés sont enregistrées **dans** le fichier numérique lui-même. Dans **Tropy**, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour "sortir" automatiquement ces informations du fichier.
-Tropy copie automatiquement les données suivantes
+
+Tropy extrait automatiquement les données suivantes pour chaque photo :
+
+- Le nom du fichier
+
+- La date de création
+
+- la taille de l'image en pixels (800X1200)
+
+- la taille de l'image en octets (*bytes*)

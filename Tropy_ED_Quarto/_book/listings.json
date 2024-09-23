@@ -11,6 +11,7 @@
     "items": [
       "/tropy-projet.html",
       "/tropy-modeles.html",
+      "/tropy-extensions.html",
       "/tropy-import.html",
       "/tropy-export.html"
     ]
@@ -19,7 +20,6 @@
     "listing": "/ressources-tropy.html",
     "items": [
       "/tropy-officiel.html",
-      "/tropy-extensions.html",
       "/tropy-tutos.html",
       "/tropy-videos.html",
       "/tropy-blogs.html"

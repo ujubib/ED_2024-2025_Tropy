@@ -8,6 +8,12 @@ image-alt: capture de la fenêtre Tropy *Créer un nouveau projet*
 ![Menu: Fichier > Nouveau > Projet (<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>P</kbd>)](img/tropy-projet.png)
 
 - Lui donner un nom
-- Choisir le type (voir [New Project Types in Tropy 1.13](https://tropy.org/blog/new-project-types-in-tropy-1-13))
+- Choisir le type [voir @lucchesiNewProjectTypes2023].
   - *Standard* : Copie les photos dans le dossier du projet à l'import
   - *Advanced* : Lien vers les photos sur votre disque (/!\\)
+- Choisir l'emplacement du projet sur son ordinateur
+ 
+  ::: callout-tip
+  ## Suggestion
+  Dans le dossier *Images* par défaut, un sous-dossier *Tropy*, puis un sous-dossier par projet.
+  :::

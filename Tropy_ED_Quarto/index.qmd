@@ -10,9 +10,7 @@ title: Accueil
 ![Tropy - Photo et sélections](IMG/tropy_vue-photo.png "capture d'écran - affichage d'une photo et de ses sélections"){group="accueil"}
 :::
 
-[**Tropy**](https://tropy.org) est un logiciel libre (*open source*) conçu pour organiser et gérer des collections d'images. Développé par la fondation [Digital Scholar](https://digitalscholar.org/) (qui développe aussi [Zotero](https://www.zotero.org/) et [Omeka](https://omeka.org/)), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales[^1].
-
-[^1]: Il est aussi apprécié par les usager·ère·s plus grand public des services d'archives comme les généalogistes. [voir @valmalleUtiliserTropyPour2021]
+[**Tropy**](https://tropy.org) est un logiciel libre (*open source*) conçu pour organiser et gérer des collections d'images. Développé par la fondation [Digital Scholar](https://digitalscholar.org/) (qui développe aussi [Zotero](https://www.zotero.org/) et [Omeka](https://omeka.org/)), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales (même s'il est aussi apprécié par les usager·ère·s plus grand public des services d'archives comme les généalogistes. [voir @valmalleUtiliserTropyPour2021]).
 
 Il permet aux chercheur·es de **classer**, **anoter**, et **organiser** des photos et des documents numérisés, comme des archives ou des manuscrits, en vue de faciliter leur utilisation et leur éventuelle publication.
 
@@ -21,6 +19,4 @@ Il permet aux chercheur·es de **classer**, **anoter**, et **organiser** des pho
 - Création de **projets** pour organiser les images par **collections** et catégories (**tags**).
 - Ajout de **métadonnées** détaillées à chaque objet (*item*), image et zone d'image (sélection).
 - Possibilité d’associer des **annotations** aux images et aux sélections.
-- **Exportation des données** sous forme de fichiers compatibles avec le web sémantique (format `JSON-LD` par défaut[^3]) ou avec d’autres logiciels (comme *Zotero* ou *OmekaS* avec les [extensions](/tropy-extensions.qmd) dédiées).
-
-[^3]: documentation : <a href="https://json-ld.org/" title="JSON-LD"><img style="border:0px;" width="88" src="https://json-ld.org/images/json-ld-button-88.png" alt="JSON-LD-logo-88"/></a>
+- **Exportation des données** sous forme de fichiers compatibles avec le web sémantique (format `JSON-LD` par défaut) ou avec d’autres logiciels (comme *Zotero* ou *OmekaS* avec les [extensions](/tropy-extensions.qmd) dédiées).

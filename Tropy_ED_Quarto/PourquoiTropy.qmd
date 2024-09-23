@@ -1,5 +1,5 @@
 ---
-title: Pourquoi Tropy
+title: "Pourquoi Tropy ?"
 listing: 
   id: pourquoi
   fields: [title, image]
@@ -11,12 +11,8 @@ listing:
     - GuideNakala.qmd
 ---
 
-
-
 ::: {#pourquoi}
 :::
-
-
 
 Tropy est un logiciel de bureau qui vous permet de stocker toutes vos photos localement et de travailler hors-connexion internet.
 
@@ -24,12 +20,7 @@ Son point fort (outre ses interfaces de gestion et de visualistion de vos ressou
 
 ## Tropy n'est pas :
 
-- Un Logiciel d'édition de photos comme *Photoshop*
+- Un logiciel d'édition de photos comme *Photoshop*
 - Un logiciel de gestion de références bibliographiques comme *Zotero*
 - Une plateforme d'écriture
 - Une plateforme pour présenter vos ressources en ligne comme *Omeka*
-
-
-## Autres logiciels de gestion d'image
-
-### Pour la Recherche

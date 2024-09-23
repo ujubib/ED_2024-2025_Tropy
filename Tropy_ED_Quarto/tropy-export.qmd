@@ -17,3 +17,6 @@ image: /IMG/floppydisk.jpg
 - Archive : Photos et métadonnées dans un `.zip`
 - CSV
 - Omeka S
+- CSL (Zotero)
+
+## Imprimer

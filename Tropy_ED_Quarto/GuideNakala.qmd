@@ -1,15 +1,18 @@
 ---
-title: "Pour réutiliser ou partager son Travail"
+title: "Pour réutiliser ou partager son corpus"
 image: /IMG/nakala.png
 ---
 
-Si vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données comme Nakala afin que leurs soit attribué un doi[^doi]
 
-[^doi]: [What is a DOI ?](https://www.doi.org/the-identifier/what-is-a-doi/) [@doifoundationWhatDOI2022]
+Si vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données (pour les partager, les réutiliser plus tard ou les archiver). Il convient alors d'adapter son modèle de saisie dans Tropy aux propriétés demandées ou disponibles dans l'entrepôt visé.
+
+## Exemple de Nakala
 
 [Nakala](https://nakala.fr) est l'entrepôt de données de [HumaNum](https://www.huma-num.fr). Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).
 
-Nakala a publié une [fiche pdf](https://documentation.huma-num.fr/media/nakala/Guide_depot_Nakala_mars-2024.pdf) d'aide au dépôt (mars 2024)
+Huma-Num, dans la riche documentation de Nakala, a publié un *[Guide pour décrire ses données dans Nakala](https://documentation.huma-num.fr/nakala-guide-de-description/)* [@huma-numGuidePourDecrire2024].
+
+Huma-Num a aussi publié une [fiche pdf](https://documentation.huma-num.fr/media/nakala/Guide_depot_Nakala_mars-2024.pdf) imprimable d'aide au dépôt dans Nakala (mars 2024).
 
 ![](/IMG/Guide_depot_Nakala_mars-2024.pdf){width=100% height=600}
 

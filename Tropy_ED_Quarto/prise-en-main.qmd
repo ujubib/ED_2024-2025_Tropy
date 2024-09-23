@@ -1,14 +1,15 @@
 ---
 listing:
   id: main
-  sort: "date"
+  sort: false
   fields: [title, image]
   type: grid
-  image-height: 200px
-  grid-columns: 2
+  image-height: 240px
+  grid-columns: 3
   contents:
     - tropy-projet.qmd
     - tropy-modeles.qmd
+    - tropy-extensions.qmd
     - tropy-import.qmd
     - tropy-export.qmd
 ---

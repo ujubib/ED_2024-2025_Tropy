@@ -4,16 +4,59 @@ image: /IMG/tropy-template.png
 
 # Modèles de saisie
 
-## 3 types
+![Préférences de Tropy > Modèles de saisie](/IMG/tropy-template.png)
 
-- Objet
-- Photo
-- Sélection
+## Trois types d'objets dans Tropy
 
-## Documentation officielle
+Donc trois types de modèles :
 
-- [What is metadata and how do I use it?](https://docs.tropy.org/before-you-begin/metadata)
+- **Objet** (*Item*) contient une ou plusieurs **Photos**
+- **Photo** Contient zero, une ou plusieurs **Sélections**
+- **Sélection**
+
+## Dans la documentation officielle
+
 - [Getting started with templates](https://docs.tropy.org/in-the-template-editor/using-templates)
+
+## Les modèles inclus dans Tropy
+
+- Niveau item : *Tropy Generic*, *Tropy Correspondance* et *Dublin Core*
+- Niveau photo : *Tropy Photo*
+- Niveau selection : *Tropy Selection*
+
+Ces modèles ne peuvent être supprimés ni effacés.
+
+## Créer ou personnaliser un modèle de saisie
+
+### Créer un modèle
+
+Dans la fenêtre des préférence, onglets des modèles de saisie :
+
+::::{.columns}
+::: {.column}
+- Vider le champ *Modèle de saisie*
+- Entrer un *Nom* (au choix)
+- Choisir le *Type* (Objet, Photo ou Sélection)
+- Renseigner le *Créateur* (Vous)
+- Ajouter une petite *Description*
+- Cliquer sur **Créer**
+:::
+::: {.column}
+![Nouveau modèle](/IMG/tropy-modele.png)
+:::
+::::
+
+#### Ajouter des propriétés
+
+![Propriété](/IMG/propriete.png)
+
+### Personnaliser un modèle
+
+- Cliquer sur l'icône Dupliquer
+
+  ![Dupliquer](/IMG/dupliquer.png)
+
+- Ajouter, supprimer, déplacer, modifier les propriétés
 
 ## Exemple du Projet Blot
 

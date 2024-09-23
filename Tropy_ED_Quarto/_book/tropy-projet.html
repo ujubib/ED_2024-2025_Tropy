@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -164,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./PourquoiTropy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pourquoi Tropy</span></a>
+ <span class="menu-text">Pourquoi Tropy ?</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -172,12 +191,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dublincore.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Des métadonnées riches</span></a>
+  <a href="./dublincore.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Des métadonnées riches…</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./GuideNakala.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pour réutiliser ou partager son Travail</span></a>
+  <a href="./GuideNakala.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pour réutiliser ou partager son corpus</span></a>
   </div>
 </li>
       </ul>
@@ -316,17 +335,36 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ul>
-<li>Lui donner un nom</li>
-<li>Choisir le type (voir <a href="https://tropy.org/blog/new-project-types-in-tropy-1-13">New Project Types in Tropy 1.13</a>)
+<li><p>Lui donner un nom</p></li>
+<li><p>Choisir le type <span class="citation" data-cites="lucchesiNewProjectTypes2023">(voir <a href="references.html#ref-lucchesiNewProjectTypes2023" role="doc-biblioref">Lucchesi et al., 2023</a>)</span>.</p>
 <ul>
 <li><em>Standard</em> : Copie les photos dans le dossier du projet à l’import</li>
 <li><em>Advanced</em> : Lien vers les photos sur votre disque (/!\)</li>
 </ul></li>
+<li><p>Choisir l’emplacement du projet sur son ordinateur</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Suggestion
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dans le dossier <em>Images</em> par défaut, un sous-dossier <em>Tropy</em>, puis un sous-dossier par projet.</p>
+</div>
+</div></li>
 </ul>
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-2">Menu: Fichier &gt; Nouveau &gt; Projet (<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>P</kbd>)</span>
+</div>
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-lucchesiNewProjectTypes2023" class="csl-entry" role="listitem">
+<span class="smallcaps">Lucchesi</span>, Anita et Douglas <span class="smallcaps">McRae</span>. <span>«&nbsp;New Project Types in Tropy 1.13&nbsp;»</span>, Blog <em>Tropy blog</em>. 2023. En ligne : <a href="https://tropy.org/blog/new-project-types-in-tropy-1-13">https://tropy.org/blog/new-project-types-in-tropy-1-13</a> [consulté le 20 septembre 2024].
+</div>
 </div>
 
 </main> <!-- /main -->
@@ -750,7 +788,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/tropy-projet.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/tropy-projet.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
