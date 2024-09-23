@@ -5,14 +5,18 @@ listing:
   fields: [title, image]
   type: grid
   grid-columns: 2
-  image-height: 210px
+  image-height: 250px
   contents:
     - dublincore.qmd
     - GuideNakala.qmd
 ---
 
-:::{pourquoi}
+
+
+::: {#pourquoi}
 :::
+
+
 
 Tropy est un logiciel de bureau qui vous permet de stocker toutes vos photos localement et de travailler hors-connexion internet.
 

@@ -5,7 +5,7 @@ image: /IMG/nakala.png
 
 Si vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données comme Nakala afin que leurs soit attribué un doi[^doi]
 
-[^doi]: [What is a DOI ?](https://www.doi.org/the-identifier/what-is-a-doi/) [@WhatDOI]
+[^doi]: [What is a DOI ?](https://www.doi.org/the-identifier/what-is-a-doi/) [@doifoundationWhatDOI2022]
 
 [Nakala](https://nakala.fr) est l'entrepôt de données de [HumaNum](https://www.huma-num.fr). Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).
 
