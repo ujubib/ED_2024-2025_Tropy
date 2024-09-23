@@ -20,8 +20,10 @@ book:
   repo-actions: [source, issue]
   downloads: [pdf, epub, docx]
   sharing: [twitter, facebook]
+  page-navigation: false
   page-footer:
     background: FloralWhite
+    border: false
   margin-header: |
     ![](/IMG/logoUPPA-RepFr.png)
   sidebar:

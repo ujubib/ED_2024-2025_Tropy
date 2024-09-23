@@ -1,8 +1,8 @@
 ---
-title: "Pour réutiliser ou partager son corpus"
 image: /IMG/nakala.png
 ---
 
+# Pour réutiliser ou partager son corpus
 
 Si vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données (pour les partager, les réutiliser plus tard ou les archiver). Il convient alors d'adapter son modèle de saisie dans Tropy aux propriétés demandées ou disponibles dans l'entrepôt visé.
 

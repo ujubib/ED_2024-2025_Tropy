@@ -2,7 +2,7 @@
 image: /IMG/tropy-template.png
 ---
 
-# Modèles de saisie
+# Les modèles de saisie
 
 ![Préférences de Tropy > Modèles de saisie](/IMG/tropy-template.png)
 

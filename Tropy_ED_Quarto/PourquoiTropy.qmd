@@ -3,7 +3,7 @@ listing:
   id: pourquoi
   fields: [title, image]
   type: grid
-  grid-columns: 2
+  grid-columns: 3
   image-height: 250px
   contents:
     - dublincore.qmd

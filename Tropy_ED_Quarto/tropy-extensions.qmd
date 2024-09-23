@@ -2,7 +2,7 @@
 image: img/tropy-plugins.png
 ---
 
-# Extensions
+# Les extensions (*Plugins*)
 
 ![Menu: Préférences... - Plugins](img/tropy-plugins.png "Panneau des plugins dans les préférences de Tropy"){width="70%"}
 

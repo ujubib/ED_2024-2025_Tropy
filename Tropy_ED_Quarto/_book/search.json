@@ -111,7 +111,7 @@
     "href": "prise-en-main.html",
     "title": "Prise en main",
     "section": "",
-    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nModèles de saisie\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtensions\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes modèles de saisie\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes extensions (Plugins)\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Prise en main"
     ]
@@ -130,78 +130,78 @@
   {
     "objectID": "tropy-modeles.html",
     "href": "tropy-modeles.html",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "",
     "text": "Trois types d’objets dans Tropy\nDonc trois types de modèles :",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#trois-types-dobjets-dans-tropy",
     "href": "tropy-modeles.html#trois-types-dobjets-dans-tropy",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "",
     "text": "Objet (Item) contient une ou plusieurs Photos\nPhoto Contient zero, une ou plusieurs Sélections\nSélection",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#dans-la-documentation-officielle",
     "href": "tropy-modeles.html#dans-la-documentation-officielle",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "Dans la documentation officielle",
     "text": "Dans la documentation officielle\n\nGetting started with templates",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#les-modèles-inclus-dans-tropy",
     "href": "tropy-modeles.html#les-modèles-inclus-dans-tropy",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "Les modèles inclus dans Tropy",
     "text": "Les modèles inclus dans Tropy\n\nNiveau item : Tropy Generic, Tropy Correspondance et Dublin Core\nNiveau photo : Tropy Photo\nNiveau selection : Tropy Selection\n\nCes modèles ne peuvent être supprimés ni effacés.",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#créer-ou-personnaliser-un-modèle-de-saisie",
     "href": "tropy-modeles.html#créer-ou-personnaliser-un-modèle-de-saisie",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "Créer ou personnaliser un modèle de saisie",
     "text": "Créer ou personnaliser un modèle de saisie\n\nCréer un modèle\nDans la fenêtre des préférence, onglets des modèles de saisie :\n\n\n\nVider le champ Modèle de saisie\nEntrer un Nom (au choix)\nChoisir le Type (Objet, Photo ou Sélection)\nRenseigner le Créateur (Vous)\nAjouter une petite Description\nCliquer sur Créer\n\n\n\n\n\nNouveau modèle\n\n\n\n\n\nAjouter des propriétés\n\n\n\nPropriété\n\n\n\n\n\nPersonnaliser un modèle\n\nCliquer sur l’icône Dupliquer\n\n\n\nDupliquer\n\n\nAjouter, supprimer, déplacer, modifier les propriétés",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#exemple-du-projet-blot",
     "href": "tropy-modeles.html#exemple-du-projet-blot",
-    "title": "Modèles de saisie",
+    "title": "Les modèles de saisie",
     "section": "Exemple du Projet Blot",
     "text": "Exemple du Projet Blot\n\nTemplate BlotPhotosV2.ttp : Télécharger\nDescription dans le wiki du projet\n\n\n\n\nPréférences de Tropy &gt; Modèles de saisie\nNouveau modèle\nPropriété\nDupliquer",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modèles de saisie</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-extensions.html",
     "href": "tropy-extensions.html",
-    "title": "Extensions",
+    "title": "Les extensions (Plugins)",
     "section": "",
     "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Extensions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Les extensions (*Plugins*)</span>"
     ]
   },
   {
