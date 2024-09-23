@@ -14,7 +14,27 @@
     "href": "PourquoiTropy.html",
     "title": "Pourquoi Tropy",
     "section": "",
-    "text": "Parce que\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDes métadonnées riches\n\n\n\n\n\n\n\n\n\n\n\n\n\nDéposer ses images dans Nakala\n\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Tropy n’est pas :",
+    "crumbs": [
+      "Pourquoi Tropy"
+    ]
+  },
+  {
+    "objectID": "PourquoiTropy.html#tropy-nest-pas",
+    "href": "PourquoiTropy.html#tropy-nest-pas",
+    "title": "Pourquoi Tropy",
+    "section": "",
+    "text": "Un Logiciel d’édition de photos comme Photoshop\nUn logiciel de gestion de références bibliographiques comme Zotero\nUne plateforme d’écriture\nUne plateforme pour présenter vos ressources en ligne comme Omeka",
+    "crumbs": [
+      "Pourquoi Tropy"
+    ]
+  },
+  {
+    "objectID": "PourquoiTropy.html#autres-logiciels-de-gestion-dimage",
+    "href": "PourquoiTropy.html#autres-logiciels-de-gestion-dimage",
+    "title": "Pourquoi Tropy",
+    "section": "Autres logiciels de gestion d’image",
+    "text": "Autres logiciels de gestion d’image\n\nPour la Recherche",
     "crumbs": [
       "Pourquoi Tropy"
     ]
@@ -35,7 +55,7 @@
     "href": "dublincore.html#que-sont-les-métadonnées",
     "title": "Des métadonnées riches",
     "section": "",
-    "text": "Qu’est-ce qu’un schémas de métadonnées ?\nUn schéma de métadonnées est un ensemble structuré de règles et de propriétés utilisés pour décrire de manière cohérente des données ou des ressources. Il définit quelles informations (ou métadonnées) doivent être collectées, comme le titre, le créateur, la date, ou le type de ressource, ainsi que la manière de les organiser.\nUn schéma de métadonnées est une structure standardisée qui aide à organiser et harmoniser les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.\nDans Tropy, des schémas de métadonnées comme les Dublin Core, Exif, ou Europeana Data Model (EDM) sont chargés par défaut. En fonction des besoins de votre projet et du type d’objets que vous décrivez, vous avez également la possibilité de personnaliser ou importer vos propres schémas selon des standards adaptés à vos recherches (comme CIDOC-CRM, VRA Core, Bibframe…).",
+    "text": "Qu’est-ce qu’un schémas de métadonnées ?\nUn schéma de métadonnées est un ensemble structuré de règles et de propriétés utilisées pour décrire de manière cohérente des données ou des ressources. Il définit quelles informations (ou métadonnées) doivent être collectées, comme le titre, le créateur, la date, ou le type de ressource, ainsi que la manière de les organiser.\nUn schéma de métadonnées est une structure standardisée qui aide à organiser et harmoniser les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.\nDans Tropy, des schémas de métadonnées comme les Dublin Core, Exif, ou Europeana Data Model (EDM) sont chargés par défaut. En fonction des besoins de votre projet et du type d’objets que vous décrivez, vous avez également la possibilité de personnaliser ou importer vos propres schémas selon des standards adaptés à vos recherches (comme CIDOC-CRM, VRA Core, Bibframe…).",
     "crumbs": [
       "Pourquoi Tropy",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Des métadonnées riches</span>"
@@ -68,7 +88,7 @@
     "href": "dublincore.html#les-proriétés-exchangeable-image-file-format-exif",
     "title": "Des métadonnées riches",
     "section": "Les proriétés Exchangeable Image File Format (EXIF)",
-    "text": "Les proriétés Exchangeable Image File Format (EXIF)\nEXIF est un ensemble de propriétés techniques centré sur les conditions de création des fichiers visuels. Contrairement au Dublin Core, il ne vise pas à fournir une description sémantique mais plutôt une description technique du fichier lui-même.\nEXIF est un standard de métadonnées techniques utilisé principalement dans les fichiers d’image (JPEG, TIFF) et les fichiers vidéo pour enregistrer des informations relatives aux conditions dans lesquelles l’image ou la vidéo a été capturée. Cela inclut des données techniques comme les paramètres de l’appareil photo (modèle, vitesse d’obturation, ouverture, ISO, orientation), la date et l’heure, des informations géographiques (si le GPS est activé) ainsi que des informations sur le fichier (taille, résolution).\nLa page Wikipedia Exchangeable image file format donne un exemple concret et la liste des principales métadonnées EXIF.\nCes propriétés sont enregistrées dans le fichier numérique lui-même. Dans Tropy, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour “sortir” automatiquement ces informations du fichier.",
+    "text": "Les proriétés Exchangeable Image File Format (EXIF)\nEXIF est un ensemble de propriétés techniques centré sur les conditions de création des fichiers visuels. Contrairement au Dublin Core, il ne vise pas à fournir une description sémantique mais plutôt une description technique du fichier lui-même.\nEXIF est un standard de métadonnées techniques utilisé principalement dans les fichiers d’image (JPEG, TIFF) et les fichiers vidéo pour enregistrer des informations relatives aux conditions dans lesquelles l’image ou la vidéo a été capturée. Cela inclut des données techniques comme les paramètres de l’appareil photo (modèle, vitesse d’obturation, ouverture, ISO, orientation), la date et l’heure, des informations géographiques (si le GPS est activé) ainsi que des informations sur le fichier (taille, résolution).\nLa page Wikipedia Exchangeable image file format donne un exemple concret et la liste des principales métadonnées EXIF.\nCes propriétés sont enregistrées dans le fichier numérique lui-même. Dans Tropy, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour “sortir” automatiquement ces informations du fichier. Tropy copie automatiquement les données suivantes",
     "crumbs": [
       "Pourquoi Tropy",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Des métadonnées riches</span>"
@@ -77,12 +97,12 @@
   {
     "objectID": "GuideNakala.html",
     "href": "GuideNakala.html",
-    "title": "Déposer ses images dans Nakala",
+    "title": "Pour réutiliser ou partager son Travail",
     "section": "",
-    "text": "Nakala est l’entrepôt de données de HumaNum. Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).\nNakala a publié une fiche pdf d’aide au dépôt (mars 2024)",
+    "text": "Si vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données comme Nakala afin que leurs soit attribué un doi1\n1 What is a DOI ? Nakala est l’entrepôt de données de HumaNum. Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).\nNakala a publié une fiche pdf d’aide au dépôt (mars 2024)\n\n\n\n\n\nWhat is a DOI? En ligne : https://www.doi.org/the-identifier/what-is-a-doi/ [consulté le 23 septembre 2024].",
     "crumbs": [
       "Pourquoi Tropy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Déposer ses images dans *Nakala*</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pour réutiliser ou partager son Travail</span>"
     ]
   },
   {
@@ -166,51 +186,51 @@
     "href": "tropy-import.html#formats-supportés",
     "title": "Importer des photos",
     "section": "",
-    "text": "JPG/JPEG\nPNG\nSVG\nTIFF\nGIF\nPDF\nJP2000\nWEBP\nHEIC\nAVIF",
+    "text": "JPG/JPEG\nPNG\nSVG\nTIFF\nGIF\nPDF\nJP2000\nWEBP\nHEIC\nAVIF\n\n\n\n\n\n\n\nAttention\n\n\n\n\nProjet Standard\n\nCopie des fichiers dans le dossier du Projet\nRisque de doublon sur le disque dur (place)\n\n\nProjet Advanced\n\nSimple création d’une miniature et lien vers l’emplacement du fichier sur votre disque\nRisque de perte de données dans le projet si vous déplacez ou supprimez vos fichiers",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
-    "objectID": "tropy-import.html#menu-fichier-importer-photos-dossier",
-    "href": "tropy-import.html#menu-fichier-importer-photos-dossier",
+    "objectID": "tropy-import.html#par-le-menu-fichier",
+    "href": "tropy-import.html#par-le-menu-fichier",
     "title": "Importer des photos",
-    "section": "Menu: Fichier > Importer > Photos | Dossier",
-    "text": "Menu: Fichier &gt; Importer &gt; Photos | Dossier\n\nPenser à définir un profil d’import par défaut avant.",
+    "section": "Par le Menu Fichier",
+    "text": "Par le Menu Fichier\n... &gt; Fichier &gt; Importer &gt; Photos | Dossier\n\nPenser à définir le bon modèle d’import par défaut avant.",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
-    "objectID": "tropy-import.html#glisser-déposer",
-    "href": "tropy-import.html#glisser-déposer",
+    "objectID": "tropy-import.html#par-glisser-déposer",
+    "href": "tropy-import.html#par-glisser-déposer",
     "title": "Importer des photos",
-    "section": "Glisser-déposer",
-    "text": "Glisser-déposer\n\nMême recommandation",
+    "section": "Par glisser-déposer",
+    "text": "Par glisser-déposer\n\nDe la fenêtre du dossier d’origine vers la fenêtre de Tropy (vue projet)\nMême recommandation (modèle d’import).",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
-    "objectID": "tropy-import.html#surveillance-dun-dossier",
-    "href": "tropy-import.html#surveillance-dun-dossier",
+    "objectID": "tropy-import.html#par-surveillance-dun-dossier",
+    "href": "tropy-import.html#par-surveillance-dun-dossier",
     "title": "Importer des photos",
-    "section": "Surveillance d’un dossier",
-    "text": "Surveillance d’un dossier\n\nMenu: Edition &gt; Préférences… | onglet Projet -&gt; Watch folder",
+    "section": "Par surveillance d’un dossier",
+    "text": "Par surveillance d’un dossier\n\nMenu édition:\n... &gt;Edition &gt; Préférences...\nOnglet Projet -&gt; Watch folder…",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
-    "objectID": "tropy-import.html#plugins",
-    "href": "tropy-import.html#plugins",
+    "objectID": "tropy-import.html#par-des-pluginsextensions",
+    "href": "tropy-import.html#par-des-pluginsextensions",
     "title": "Importer des photos",
-    "section": "Plugins",
-    "text": "Plugins\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (template) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json",
+    "section": "Par des plugins/extensions",
+    "text": "Par des plugins/extensions\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (template) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
@@ -308,7 +328,7 @@
     "href": "tropy-blogs.html",
     "title": "Billets de blog",
     "section": "",
-    "text": "Gérer ses photos d’archives avec Tropy - Franziska Heimburger - La boîte à outils des historien·ne·s (Heimburger, 2017)\nTropy, un gestionnaire de photos d’archives pour les chercheurs - Florian Innocente, MacGeneration (Innocente, 2017)\nSix months of using Tropy - Emmanuel Mourlon-Druol (Mourlon-Druol, 2019)\nTropy : un logiciel pour organiser des corpus iconographiques - Le Carreau de la BULAC (Larguèche, 2021)\nNew Project Types in Tropy 1.13 - Tropy Blog (Lucchesi et al., 2023)\n\n\n\n\n\nHeimburger, Franziska. « Gérer ses photos d’archives avec Tropy », Blog La boîte à outils des historien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/ [consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un gestionnaire de photos d’archives pour les chercheurs », Blog MacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197 [consulté le 20 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un logiciel pour organiser des corpus iconographiques », Blog Le Carreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406 [consulté le 20 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy 1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13 [consulté le 20 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six months of using Tropy », Blog Emmanuel Mourlon-Druol. 2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/ [consulté le 20 septembre 2024].",
+    "text": "Gérer ses photos d’archives avec Tropy - Franziska Heimburger - La boîte à outils des historien·ne·s (Heimburger, 2017)\nTropy, un gestionnaire de photos d’archives pour les chercheurs - Florian Innocente, MacGeneration (Innocente, 2017)\nSix months of using Tropy - Emmanuel Mourlon-Druol (Mourlon-Druol, 2019)\nTropy : un logiciel pour organiser des corpus iconographiques - Le Carreau de la BULAC (Larguèche, 2021)\nPersonal image management software rec from an art historian: Tropy - Elizabeth Lee - The Digital Orientalist (Lee, 2021-03-16T)\nNew Project Types in Tropy 1.13 - Tropy Blog (Lucchesi et al., 2023)\n\n\n\n\n\nHeimburger, Franziska. « Gérer ses photos d’archives avec Tropy », Blog La boîte à outils des historien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/ [consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un gestionnaire de photos d’archives pour les chercheurs », Blog MacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197 [consulté le 20 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un logiciel pour organiser des corpus iconographiques », Blog Le Carreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406 [consulté le 20 septembre 2024].\n\n\nLee, Elizabeth. « Personal image management software rec from an art historian: Tropy », Blog The Digital Orientalist. 2021-03-16T. En ligne : https://digitalorientalist.com/2021/03/16/personal-image-management-software-rec-from-an-art-historian-tropy/ [consulté le 23 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy 1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13 [consulté le 20 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six months of using Tropy », Blog Emmanuel Mourlon-Druol. 2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/ [consulté le 20 septembre 2024].",
     "crumbs": [
       "Ressources sur Tropy",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Billets de blog</span>"
@@ -363,7 +383,7 @@
     "href": "references.html",
     "title": "Réferences bibliographiques",
     "section": "",
-    "text": "Croizet, Stéphanie. Gérer ses photos\nde recherche avec Tropy. 2024. En ligne : https://tutos.bu.univ-rennes2.fr/c.php?g=702342&p=5049754\n[consulté le 22 septembre 2024].\n\n\nFauxsmith, Jennifer. Research Guides:\nManage Research Images With Tropy. 2019. En ligne : https://guides.library.harvard.edu/c.php?g=833532&p=5951888\n[consulté le 22 septembre 2024].\n\n\nHeimburger, Franziska. « Gérer ses\nphotos d’archives avec Tropy », Blog La boîte à outils des\nhistorien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/\n[consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un\ngestionnaire de photos d’archives pour les chercheurs », Blog\nMacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197\n[consulté le 20 septembre 2024].\n\n\nLaillier, Benjamin. Tutoriel\nTropy. 2019. En ligne : https://zenodo.org/record/3381981\n[consulté le 22 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un\nlogiciel pour organiser des corpus iconographiques », Blog Le\nCarreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406\n[consulté le 20 septembre 2024].\n\n\nLeromain, Emilie. « Gérer ses\nphotos d’archives avec Tropy ». 8 avril 2024. En ligne : https://zenodo.org/doi/10.5281/zenodo.10939791\n[consulté le 22 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy\n1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13\n[consulté le 20 septembre 2024].\n\n\nMaisonneuve, Grégoire. Gérer ses\nressources iconographiques avec Tropy. 2024. En ligne : https://www.bulac.fr/document/gerer-ses-ressources-iconographiques-avec-tropy-mai-2024\n[consulté le 22 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six\nmonths of using Tropy », Blog Emmanuel Mourlon-Druol.\n2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/\n[consulté le 20 septembre 2024].\n\n\nValmalle, Delphine. « Utiliser\nTropy pour la gestion de ses photos d’archives », Blog\nGeneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E\n[consulté le 22 septembre 2024].",
+    "text": "What is a DOI? En ligne : https://www.doi.org/the-identifier/what-is-a-doi/\n[consulté le 23 septembre 2024].\n\n\nCroizet, Stéphanie. Gérer ses photos\nde recherche avec Tropy. 2024. En ligne : https://tutos.bu.univ-rennes2.fr/c.php?g=702342&p=5049754\n[consulté le 22 septembre 2024].\n\n\nFauxsmith, Jennifer. Research Guides:\nManage Research Images With Tropy. 2019. En ligne : https://guides.library.harvard.edu/c.php?g=833532&p=5951888\n[consulté le 22 septembre 2024].\n\n\nHeimburger, Franziska. « Gérer ses\nphotos d’archives avec Tropy », Blog La boîte à outils des\nhistorien·ne·s. 2017. En ligne : https://boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/\n[consulté le 20 septembre 2024].\n\n\nInnocente, Florian. « Tropy, un\ngestionnaire de photos d’archives pour les chercheurs », Blog\nMacGeneration. 2017. En ligne : https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197\n[consulté le 20 septembre 2024].\n\n\nLaillier, Benjamin. Tutoriel\nTropy. 2019. En ligne : https://zenodo.org/record/3381981\n[consulté le 22 septembre 2024].\n\n\nLarguèche, Aladin. « Tropy : un\nlogiciel pour organiser des corpus iconographiques », Blog Le\nCarreau de la BULAC. 2021. En ligne : https://bulac.hypotheses.org/33406\n[consulté le 20 septembre 2024].\n\n\nLee, Elizabeth. « Personal image\nmanagement software rec from an art historian: Tropy », Blog\nThe Digital Orientalist. 2021-03-16T. En ligne : https://digitalorientalist.com/2021/03/16/personal-image-management-software-rec-from-an-art-historian-tropy/\n[consulté le 23 septembre 2024].\n\n\nLeromain, Emilie. « Gérer ses\nphotos d’archives avec Tropy ». 8 avril 2024. En ligne : https://zenodo.org/doi/10.5281/zenodo.10939791\n[consulté le 22 septembre 2024].\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy\n1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13\n[consulté le 20 septembre 2024].\n\n\nMaisonneuve, Grégoire. Gérer ses\nressources iconographiques avec Tropy. 2024. En ligne : https://www.bulac.fr/document/gerer-ses-ressources-iconographiques-avec-tropy-mai-2024\n[consulté le 22 septembre 2024].\n\n\nMourlon-Druol, Emmanuel. « Six\nmonths of using Tropy », Blog Emmanuel Mourlon-Druol.\n2019. En ligne : https://www.e-mourlon-druol.com/six-months-of-using-tropy/\n[consulté le 20 septembre 2024].\n\n\nValmalle, Delphine. « Utiliser\nTropy pour la gestion de ses photos d’archives », Blog\nGeneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E\n[consulté le 22 septembre 2024].",
     "crumbs": [
       "Appendices",
       "Réferences bibliographiques"

@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./GuideNakala.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Déposer ses images dans <em>Nakala</em></span></a>
+  <a href="./GuideNakala.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pour réutiliser ou partager son Travail</span></a>
   </div>
 </li>
       </ul>
@@ -290,10 +290,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#formats-supportés" id="toc-formats-supportés" class="nav-link active" data-scroll-target="#formats-supportés">Formats supportés</a></li>
-  <li><a href="#menu-fichier-importer-photos-dossier" id="toc-menu-fichier-importer-photos-dossier" class="nav-link" data-scroll-target="#menu-fichier-importer-photos-dossier">Menu: Fichier &gt; Importer &gt; Photos | Dossier</a></li>
-  <li><a href="#glisser-déposer" id="toc-glisser-déposer" class="nav-link" data-scroll-target="#glisser-déposer">Glisser-déposer</a></li>
-  <li><a href="#surveillance-dun-dossier" id="toc-surveillance-dun-dossier" class="nav-link" data-scroll-target="#surveillance-dun-dossier">Surveillance d’un dossier</a></li>
-  <li><a href="#plugins" id="toc-plugins" class="nav-link" data-scroll-target="#plugins">Plugins</a>
+  <li><a href="#par-le-menu-fichier" id="toc-par-le-menu-fichier" class="nav-link" data-scroll-target="#par-le-menu-fichier">Par le Menu Fichier</a></li>
+  <li><a href="#par-glisser-déposer" id="toc-par-glisser-déposer" class="nav-link" data-scroll-target="#par-glisser-déposer">Par glisser-déposer</a></li>
+  <li><a href="#par-surveillance-dun-dossier" id="toc-par-surveillance-dun-dossier" class="nav-link" data-scroll-target="#par-surveillance-dun-dossier">Par surveillance d’un dossier</a></li>
+  <li><a href="#par-des-pluginsextensions" id="toc-par-des-pluginsextensions" class="nav-link" data-scroll-target="#par-des-pluginsextensions">Par des plugins/extensions</a>
   <ul class="collapse">
   <li><a href="#csv" id="toc-csv" class="nav-link" data-scroll-target="#csv">CSV</a></li>
   <li><a href="#iiif" id="toc-iiif" class="nav-link" data-scroll-target="#iiif">IIIF</a></li>
@@ -331,33 +331,62 @@ ul.task-list li input[type="checkbox"] {
 <li>SVG</li>
 <li>TIFF</li>
 <li>GIF</li>
-<li>PDF</li>
+<li><strong>PDF</strong></li>
 <li>JP2000</li>
 <li>WEBP</li>
 <li>HEIC</li>
 <li>AVIF</li>
 </ul>
-</section>
-<section id="menu-fichier-importer-photos-dossier" class="level2">
-<h2 class="anchored" data-anchor-id="menu-fichier-importer-photos-dossier">Menu: Fichier &gt; Importer &gt; Photos | Dossier</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Attention
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Penser à définir un profil d’import par défaut avant.</li>
+<li>Projet <strong>Standard</strong>
+<ul>
+<li>Copie des fichiers dans le dossier du Projet</li>
+<li>Risque de doublon sur le disque dur (place)<br>
+</li>
+</ul></li>
+<li>Projet <strong>Advanced</strong>
+<ul>
+<li>Simple création d’une miniature et lien vers l’emplacement du fichier sur votre disque</li>
+<li>Risque de perte de données dans le projet si vous déplacez ou supprimez vos fichiers</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="par-le-menu-fichier" class="level2">
+<h2 class="anchored" data-anchor-id="par-le-menu-fichier">Par le Menu Fichier</h2>
+<p><code>... &gt; Fichier &gt; Importer &gt; Photos | Dossier</code></p>
+<ul>
+<li>Penser à définir le bon modèle d’import par défaut avant.</li>
 </ul>
 </section>
-<section id="glisser-déposer" class="level2">
-<h2 class="anchored" data-anchor-id="glisser-déposer">Glisser-déposer</h2>
+<section id="par-glisser-déposer" class="level2">
+<h2 class="anchored" data-anchor-id="par-glisser-déposer">Par glisser-déposer</h2>
 <ul>
-<li>Même recommandation</li>
+<li><p>De la fenêtre du dossier d’origine vers la fenêtre de Tropy (vue projet)</p></li>
+<li><p>Même recommandation (modèle d’import).</p></li>
 </ul>
 </section>
-<section id="surveillance-dun-dossier" class="level2">
-<h2 class="anchored" data-anchor-id="surveillance-dun-dossier">Surveillance d’un dossier</h2>
+<section id="par-surveillance-dun-dossier" class="level2">
+<h2 class="anchored" data-anchor-id="par-surveillance-dun-dossier">Par surveillance d’un dossier</h2>
 <ul>
-<li>Menu: Edition &gt; Préférences… | onglet <em>Projet</em> -&gt; Watch folder</li>
+<li><p>Menu édition:</p>
+<p><code>... &gt;Edition &gt; Préférences...</code></p>
+<p>Onglet <em>Projet</em> -&gt; Watch folder…</p></li>
 </ul>
 </section>
-<section id="plugins" class="level2">
-<h2 class="anchored" data-anchor-id="plugins">Plugins</h2>
+<section id="par-des-pluginsextensions" class="level2">
+<h2 class="anchored" data-anchor-id="par-des-pluginsextensions">Par des plugins/extensions</h2>
 <section id="csv" class="level3">
 <h3 class="anchored" data-anchor-id="csv">CSV</h3>
 <ol type="1">
@@ -800,7 +829,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/tropy-import.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/tropy-import.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -11,7 +11,7 @@ Les métadonnées aident à **organiser, identifier et trouver** facilement des 
 
 ### Qu'est-ce qu'un schémas de métadonnées ?
 
-Un **schéma de métadonnées** est un **ensemble structuré de règles et de propriétés** utilisés pour décrire de manière cohérente des données ou des ressources. Il définit **quelles informations** (ou métadonnées) doivent être collectées, comme le **titre**, le **créateur**, la **date**, ou le **type** de ressource, ainsi que la manière de les organiser.
+Un **schéma de métadonnées** est un **ensemble structuré de règles et de propriétés** utilisées pour décrire de manière cohérente des données ou des ressources. Il définit **quelles informations** (ou métadonnées) doivent être collectées, comme le **titre**, le **créateur**, la **date**, ou le **type** de ressource, ainsi que la manière de les organiser.
 
 Un schéma de métadonnées est une **structure standardisée** qui aide à **organiser et harmoniser** les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.
 
@@ -147,3 +147,4 @@ EXIF est un standard de métadonnées techniques utilisé principalement dans le
 La page *Wikipedia* [Exchangeable image file format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format) donne un [exemple](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Exemple) concret et la [liste des principales métadonnées EXIF](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Liste_des_principales_m%C3%A9tadonn%C3%A9es_EXIF).
 
 Ces propriétés sont enregistrées **dans** le fichier numérique lui-même. Dans **Tropy**, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour "sortir" automatiquement ces informations du fichier.
+Tropy copie automatiquement les données suivantes
