@@ -194,6 +194,17 @@
     ]
   },
   {
+    "objectID": "tropy-extensions.html",
+    "href": "tropy-extensions.html",
+    "title": "Extensions",
+    "section": "",
+    "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Extensions</span>"
+    ]
+  },
+  {
     "objectID": "tropy-import.html",
     "href": "tropy-import.html",
     "title": "Importer des photos",
@@ -201,7 +212,7 @@
     "text": "Formats supportés",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -212,7 +223,7 @@
     "text": "JPG/JPEG\nPNG\nSVG\nTIFF\nGIF\nPDF\nJP2000\nWEBP\nHEIC\nAVIF\n\n\n\n\n\n\n\nAttention\n\n\n\n\nProjet Standard\n\nCopie des fichiers dans le dossier du Projet\nRisque de doublon sur le disque dur (place)\n\n\nProjet Advanced\n\nSimple création d’une miniature et lien vers l’emplacement du fichier sur votre disque\nRisque de perte de données dans le projet si vous déplacez ou supprimez vos fichiers",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -223,7 +234,7 @@
     "text": "Par le Menu Fichier\n... &gt; Fichier &gt; Importer &gt; Photos | Dossier\n\nPenser à définir le bon modèle d’import par défaut avant.\n\n\n\nPréférences de Tropy &gt; Paramètres",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -234,7 +245,7 @@
     "text": "Par glisser-déposer\n\nDe la fenêtre du dossier d’origine vers la fenêtre de Tropy (vue projet)\nMême recommandation (modèle d’import).",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -245,7 +256,7 @@
     "text": "Par surveillance d’un dossier\n\nMenu édition:\n... &gt; Édition &gt; Préférences...\nOnglet Projet -&gt; Watch folder…",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -256,7 +267,7 @@
     "text": "Par des plugins/extensions\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (modèle de saisie) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\n\nListe de collections utilisant IIIF pour partager leurs ressources (IIIF Consortium, 2024)\n\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json\n\n\n\n\nPréférences de Tropy &gt; Paramètres\n\n\n\nIIIF Consortium. Guides to finding IIIF resources. 2024. En ligne : https://iiif.io/guides/finding_resources/ [consulté le 23 septembre 2024].",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
@@ -267,7 +278,7 @@
     "text": "Préférences &gt; Export",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
@@ -278,7 +289,7 @@
     "text": "Menu Exporter\n\nJSON-LD : LD pour Linked Data\nPDF\nPlugins",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
@@ -289,7 +300,7 @@
     "text": "Plugins\n\nArchive : Photos et métadonnées dans un .zip\nCSV\nOmeka S\nCSL (Zotero)",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
@@ -300,7 +311,7 @@
     "text": "Imprimer",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
@@ -321,18 +332,7 @@
     "text": "Documentation\nSupport (forum)\nVimeo\nYoutube\nX/Twitter\nGitHub (code source, templates…)",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Canaux officiels</span>"
-    ]
-  },
-  {
-    "objectID": "tropy-extensions.html",
-    "href": "tropy-extensions.html",
-    "title": "Extensions",
-    "section": "",
-    "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
-    "crumbs": [
-      "Ressources sur Tropy",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Extensions</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Canaux officiels</span>"
     ]
   },
   {

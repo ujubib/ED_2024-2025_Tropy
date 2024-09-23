@@ -1,5 +1,4 @@
 ---
-title: "Pourquoi Tropy ?"
 listing: 
   id: pourquoi
   fields: [title, image]
@@ -10,6 +9,8 @@ listing:
     - dublincore.qmd
     - GuideNakala.qmd
 ---
+
+# Pourquoi Tropy ?
 
 ::: {#pourquoi}
 :::
