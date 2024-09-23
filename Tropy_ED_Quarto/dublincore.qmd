@@ -3,6 +3,21 @@ title: "Des métadonnées riches"
 image: /IMG/metadata.png
 ---
 
+## Que sont les métadonnées ?
+
+Les **métadonnées** sont des **données qui décrivent d'autres données**. Elles fournissent des informations sur un fichier, un document, ou tout autre type de ressource numérique. Par exemple, pour une photo, les métadonnées peuvent inclure le **titre**, le **nom du créateur**, la **date de création**, le **format**, et les **droits d'utilisation**.
+
+Les métadonnées aident à **organiser, identifier et trouver** facilement des informations en donnant des détails sur le contenu, la structure et le contexte des données (ici vos objets, images et sélections).
+
+### Qu'est-ce qu'un schémas de métadonnées ?
+
+Un **schéma de métadonnées** est un **ensemble structuré de règles et de propriétés** utilisés pour décrire de manière cohérente des données ou des ressources. Il définit **quelles informations** (ou métadonnées) doivent être collectées, comme le **titre**, le **créateur**, la **date**, ou le **type** de ressource, ainsi que la manière de les organiser.
+
+Un schéma de métadonnées est une **structure standardisée** qui aide à **organiser et harmoniser** les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.
+
+Dans Tropy, des schémas de métadonnées comme les **Dublin Core**, **Exif**, ou **Europeana Data Model (EDM)** sont chargés par défaut. En fonction des besoins de votre projet et du type d'objets que vous décrivez, vous avez également la possibilité de **personnaliser** ou **importer** vos propres schémas selon des standards adaptés à vos recherches (comme [CIDOC-CRM](https://www.cidoc-crm.org), [VRA Core](https://www.vraweb.org/vra-core-data-standard), [Bibframe](https://www.loc.gov/bibframe/docs/index.html)...).
+
+
 ## Les schémas *Dublin Core*
 
 ![](/IMG/Dublin-Core.png)
@@ -98,3 +113,37 @@ Les [Dublin Core Terms][DCTerms] sont également formalisés selon des standards
 - **Dublin Core Elements** est idéal pour une **description simple** et **universelle** de ressources numériques, facilitant une adoption rapide et large dans des environnements variés.
 - **Dublin Core Terms** fournit un **cadre plus élaboré**, utile pour des projets nécessitant une description **plus fine** et **spécialisée**, avec une interopérabilité accrue dans des environnements complexes comme le **web sémantique**.
 :::
+
+## Le schéma *Europeana Data Model* (EDM)
+
+
+**Europeana Data Model** est un schéma utilisé par [Europeana](https://www.europeana.eu/fr) [^euro] pour décrire des objets culturels numériques en accord avec les standards du web sémantique.
+
+
+### Caractéristiques clés :
+
+- **Modèle RDF** : EDM est basé sur le *Resource Description Framework* ([RDF](https://www.w3.org/TR/rdf11-primer/)), un standard du [W3C](https://www.w3.org) utilisé pour représenter des informations sur des ressources dans le web sémantique. Cela permet de relier des objets à d'autres ressources, qu'elles soient internes ou externes à *Europeana*.
+
+- **Séparation des différentes entités** : EDM distingue clairement plusieurs types d'entités, ce qui permet de modéliser les relations complexes entre les objets numériques et leur contexte. Parmi ces entités, on trouve :
+
+  - `ProvidedCHO` (Cultural Heritage Object) : représente l’objet culturel lui-même (par exemple, une peinture, un manuscrit).
+  - `WebResource` : fait référence aux versions numériques de l’objet, telles que les fichiers d’image, vidéo ou son.
+  - `Aggregation` : permet de regrouper les données sur un objet, notamment les métadonnées des différentes sources.
+  - `Agent` : représente les entités ayant une influence sur l'objet (par exemple, un auteur, un artiste, un contributeur).
+  - `Place` et `TimeSpan` : permettent de contextualiser l'objet dans le temps et l'espace.
+
+- **Multi-représentation** : EDM permet d’avoir plusieurs représentations numériques d’un même objet culturel (images de différents angles, fichiers audio associés, etc.), ainsi que des relations entre ces différentes représentations.
+
+- **Alignement avec d'autres standards** : EDM est conçu pour être interopérable avec d'autres schémas de métadonnées, notamment **Dublin Core**, **LIDO** (utilisé dans les musées), **EAD** (Description archivistique encodée), et **OAI-PMH** (Open Archives Initiative Protocol for Metadata Harvesting).
+
+[^euro]: [Europeana](https://www.europeana.eu/fr) est un portail européen qui présente des ressources patrimoniales provenant de quelque 2000 institutions différentes. Un réseau de partenaires agrégateurs se charge de collecter les données, de les vérifier minutieusement et de les enrichir d’informations telles que la géolocalisation, ou de les relier à d’autres données ou ensembles de données par le biais de personnes, de lieux ou de thèmes associés. ([Liste des partenaires agrégateurs](https://pro.europeana.eu/page/aggregators), dont Gallica)
+
+## Les proriétés *Exchangeable Image File Format* (EXIF)
+
+**EXIF** est un ensemble de propriétés **techniques** centré sur les conditions de création des fichiers visuels. Contrairement au *Dublin Core*, il ne vise pas à fournir une description sémantique mais plutôt une description technique du fichier lui-même.
+
+EXIF est un standard de métadonnées techniques utilisé principalement dans les fichiers d’image (JPEG, TIFF) et les fichiers vidéo pour enregistrer des informations relatives aux conditions dans lesquelles l’image ou la vidéo a été capturée. Cela inclut des données techniques comme les **paramètres de l'appareil photo** (modèle, vitesse d'obturation, ouverture, ISO, orientation), **la date et l'heure**, des informations géographiques (si le GPS est activé) ainsi que des informations sur le fichier (taille, résolution).
+
+La page *Wikipedia* [Exchangeable image file format](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format) donne un [exemple](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Exemple) concret et la [liste des principales métadonnées EXIF](https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Liste_des_principales_m%C3%A9tadonn%C3%A9es_EXIF).
+
+Ces propriétés sont enregistrées **dans** le fichier numérique lui-même. Dans **Tropy**, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour "sortir" automatiquement ces informations du fichier.

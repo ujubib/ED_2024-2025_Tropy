@@ -59,6 +59,7 @@ button>a {
 }
 .csl-entry a {
     font-size: 0.9em;
+    color:dimgray;
 }
 table, sidebar-menu-container {
     text-align: left;

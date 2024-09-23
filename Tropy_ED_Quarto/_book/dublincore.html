@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -289,12 +289,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table des matières</h2>
    
   <ul>
-  <li><a href="#les-schémas-dublin-core" id="toc-les-schémas-dublin-core" class="nav-link active" data-scroll-target="#les-schémas-dublin-core">Les schémas <em>Dublin Core</em></a></li>
+  <li><a href="#que-sont-les-métadonnées" id="toc-que-sont-les-métadonnées" class="nav-link active" data-scroll-target="#que-sont-les-métadonnées">Que sont les métadonnées ?</a>
+  <ul class="collapse">
+  <li><a href="#quest-ce-quun-schémas-de-métadonnées" id="toc-quest-ce-quun-schémas-de-métadonnées" class="nav-link" data-scroll-target="#quest-ce-quun-schémas-de-métadonnées">Qu’est-ce qu’un schémas de métadonnées ?</a></li>
+  </ul></li>
+  <li><a href="#les-schémas-dublin-core" id="toc-les-schémas-dublin-core" class="nav-link" data-scroll-target="#les-schémas-dublin-core">Les schémas <em>Dublin Core</em></a></li>
+  <li><a href="#le-schéma-europeana-data-model-edm" id="toc-le-schéma-europeana-data-model-edm" class="nav-link" data-scroll-target="#le-schéma-europeana-data-model-edm">Le schéma <em>Europeana Data Model</em> (EDM)</a>
+  <ul class="collapse">
+  <li><a href="#caractéristiques-clés" id="toc-caractéristiques-clés" class="nav-link" data-scroll-target="#caractéristiques-clés">Caractéristiques clés :</a></li>
+  </ul></li>
+  <li><a href="#les-proriétés-exchangeable-image-file-format-exif" id="toc-les-proriétés-exchangeable-image-file-format-exif" class="nav-link" data-scroll-target="#les-proriétés-exchangeable-image-file-format-exif">Les proriétés <em>Exchangeable Image File Format</em> (EXIF)</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/dublincore.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PourquoiTropy.html">Pourquoi Tropy</a></li><li class="breadcrumb-item"><a href="./dublincore.html"><span class="chapter-title">Des métadonnées riches</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -315,6 +324,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="que-sont-les-métadonnées" class="level2">
+<h2 class="anchored" data-anchor-id="que-sont-les-métadonnées">Que sont les métadonnées ?</h2>
+<p>Les <strong>métadonnées</strong> sont des <strong>données qui décrivent d’autres données</strong>. Elles fournissent des informations sur un fichier, un document, ou tout autre type de ressource numérique. Par exemple, pour une photo, les métadonnées peuvent inclure le <strong>titre</strong>, le <strong>nom du créateur</strong>, la <strong>date de création</strong>, le <strong>format</strong>, et les <strong>droits d’utilisation</strong>.</p>
+<p>Les métadonnées aident à <strong>organiser, identifier et trouver</strong> facilement des informations en donnant des détails sur le contenu, la structure et le contexte des données (ici vos objets, images et sélections).</p>
+<section id="quest-ce-quun-schémas-de-métadonnées" class="level3">
+<h3 class="anchored" data-anchor-id="quest-ce-quun-schémas-de-métadonnées">Qu’est-ce qu’un schémas de métadonnées ?</h3>
+<p>Un <strong>schéma de métadonnées</strong> est un <strong>ensemble structuré de règles et de propriétés</strong> utilisés pour décrire de manière cohérente des données ou des ressources. Il définit <strong>quelles informations</strong> (ou métadonnées) doivent être collectées, comme le <strong>titre</strong>, le <strong>créateur</strong>, la <strong>date</strong>, ou le <strong>type</strong> de ressource, ainsi que la manière de les organiser.</p>
+<p>Un schéma de métadonnées est une <strong>structure standardisée</strong> qui aide à <strong>organiser et harmoniser</strong> les informations descriptives sur des fichiers ou documents, facilitant ainsi leur recherche et leur gestion.</p>
+<p>Dans Tropy, des schémas de métadonnées comme les <strong>Dublin Core</strong>, <strong>Exif</strong>, ou <strong>Europeana Data Model (EDM)</strong> sont chargés par défaut. En fonction des besoins de votre projet et du type d’objets que vous décrivez, vous avez également la possibilité de <strong>personnaliser</strong> ou <strong>importer</strong> vos propres schémas selon des standards adaptés à vos recherches (comme <a href="https://www.cidoc-crm.org">CIDOC-CRM</a>, <a href="https://www.vraweb.org/vra-core-data-standard">VRA Core</a>, <a href="https://www.loc.gov/bibframe/docs/index.html">Bibframe</a>…).</p>
+</section>
+</section>
 <section id="les-schémas-dublin-core" class="level2">
 <h2 class="anchored" data-anchor-id="les-schémas-dublin-core">Les schémas <em>Dublin Core</em></h2>
 <p><a href=".\IMG/Dublin-Core.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src=".\IMG/Dublin-Core.png" class="img-fluid"></a></p>
@@ -467,9 +487,37 @@ Synthèse <em>Dublin Core</em>
 </ul>
 </div>
 </div>
+</section>
+<section id="le-schéma-europeana-data-model-edm" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="le-schéma-europeana-data-model-edm">Le schéma <em>Europeana Data Model</em> (EDM)</h2>
+<p><strong>Europeana Data Model</strong> est un schéma utilisé par <a href="https://www.europeana.eu/fr">Europeana</a> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pour décrire des objets culturels numériques en accord avec les standards du web sémantique.</p>
+<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;<a href="https://www.europeana.eu/fr">Europeana</a> est un portail européen qui présente des ressources patrimoniales provenant de quelque 2000 institutions différentes. Un réseau de partenaires agrégateurs se charge de collecter les données, de les vérifier minutieusement et de les enrichir d’informations telles que la géolocalisation, ou de les relier à d’autres données ou ensembles de données par le biais de personnes, de lieux ou de thèmes associés. (<a href="https://pro.europeana.eu/page/aggregators">Liste des partenaires agrégateurs</a>, dont Gallica)</p></div><section id="caractéristiques-clés" class="level3">
+<h3 class="anchored" data-anchor-id="caractéristiques-clés">Caractéristiques clés :</h3>
+<ul>
+<li><p><strong>Modèle RDF</strong> : EDM est basé sur le <em>Resource Description Framework</em> (<a href="https://www.w3.org/TR/rdf11-primer/">RDF</a>), un standard du <a href="https://www.w3.org">W3C</a> utilisé pour représenter des informations sur des ressources dans le web sémantique. Cela permet de relier des objets à d’autres ressources, qu’elles soient internes ou externes à <em>Europeana</em>.</p></li>
+<li><p><strong>Séparation des différentes entités</strong> : EDM distingue clairement plusieurs types d’entités, ce qui permet de modéliser les relations complexes entre les objets numériques et leur contexte. Parmi ces entités, on trouve :</p>
+<ul>
+<li><code>ProvidedCHO</code> (Cultural Heritage Object) : représente l’objet culturel lui-même (par exemple, une peinture, un manuscrit).</li>
+<li><code>WebResource</code> : fait référence aux versions numériques de l’objet, telles que les fichiers d’image, vidéo ou son.</li>
+<li><code>Aggregation</code> : permet de regrouper les données sur un objet, notamment les métadonnées des différentes sources.</li>
+<li><code>Agent</code> : représente les entités ayant une influence sur l’objet (par exemple, un auteur, un artiste, un contributeur).</li>
+<li><code>Place</code> et <code>TimeSpan</code> : permettent de contextualiser l’objet dans le temps et l’espace.</li>
+</ul></li>
+<li><p><strong>Multi-représentation</strong> : EDM permet d’avoir plusieurs représentations numériques d’un même objet culturel (images de différents angles, fichiers audio associés, etc.), ainsi que des relations entre ces différentes représentations.</p></li>
+<li><p><strong>Alignement avec d’autres standards</strong> : EDM est conçu pour être interopérable avec d’autres schémas de métadonnées, notamment <strong>Dublin Core</strong>, <strong>LIDO</strong> (utilisé dans les musées), <strong>EAD</strong> (Description archivistique encodée), et <strong>OAI-PMH</strong> (Open Archives Initiative Protocol for Metadata Harvesting).</p></li>
+</ul>
+</section>
+</section>
+<section id="les-proriétés-exchangeable-image-file-format-exif" class="level2">
+<h2 class="anchored" data-anchor-id="les-proriétés-exchangeable-image-file-format-exif">Les proriétés <em>Exchangeable Image File Format</em> (EXIF)</h2>
+<p><strong>EXIF</strong> est un ensemble de propriétés <strong>techniques</strong> centré sur les conditions de création des fichiers visuels. Contrairement au <em>Dublin Core</em>, il ne vise pas à fournir une description sémantique mais plutôt une description technique du fichier lui-même.</p>
+<p>EXIF est un standard de métadonnées techniques utilisé principalement dans les fichiers d’image (JPEG, TIFF) et les fichiers vidéo pour enregistrer des informations relatives aux conditions dans lesquelles l’image ou la vidéo a été capturée. Cela inclut des données techniques comme les <strong>paramètres de l’appareil photo</strong> (modèle, vitesse d’obturation, ouverture, ISO, orientation), <strong>la date et l’heure</strong>, des informations géographiques (si le GPS est activé) ainsi que des informations sur le fichier (taille, résolution).</p>
+<p>La page <em>Wikipedia</em> <a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format">Exchangeable image file format</a> donne un <a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Exemple">exemple</a> concret et la <a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format#Liste_des_principales_m%C3%A9tadonn%C3%A9es_EXIF">liste des principales métadonnées EXIF</a>.</p>
+<p>Ces propriétés sont enregistrées <strong>dans</strong> le fichier numérique lui-même. Dans <strong>Tropy</strong>, on ajoutera des propriétés EXIF dans des modèles de niveau photo, pour “sortir” automatiquement ces informations du fichier.</p>
 
 
 </section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -892,7 +940,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/dublincore.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/blob/main//Tropy_ED_Quarto/dublincore.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/ED_2024-2025_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
