@@ -80,7 +80,7 @@ format:
       gutter-width: 1.5rem
   pdf:
     lang: fr
-    documentclass: scrbook
+    documentclass: scrreport
     number-sections: false
     links-as-notes: true
     lof: true
