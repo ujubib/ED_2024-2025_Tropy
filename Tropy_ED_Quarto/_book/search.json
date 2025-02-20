@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Gérer un corpus d’images avec Tropy",
     "section": "",
-    "text": "Tropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\nTropy est un logiciel libre (open source) conçu pour organiser et gérer des collections d’images. Développé par la fondation Digital Scholar (qui développe aussi Zotero et Omeka), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales (même s’il est aussi apprécié par les usager·ère·s plus grand public des services d’archives comme les généalogistes. (voir Valmalle, 2021)).\nIl permet aux chercheur·es de classer, anoter, et organiser des photos et des documents numérisés, comme des archives ou des manuscrits, en vue de faciliter leur utilisation et leur éventuelle publication.\nPrincipales fonctionalités :\n\nCréation de projets pour organiser les images par collections et catégories (tags).\nAjout de métadonnées détaillées à chaque objet (item), image et zone d’image (sélection).\nPossibilité d’associer des annotations aux images et aux sélections.\nExportation des données sous forme de fichiers compatibles avec le web sémantique (format JSON-LD par défaut) ou avec d’autres logiciels (comme Zotero ou OmekaS avec les extensions dédiées).\n\n\n\n\nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\n\n\n\nValmalle, Delphine. « Utiliser Tropy pour la gestion de ses photos d’archives », Blog Geneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E [consulté le 22 septembre 2024].",
+    "text": "Tropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\nTropy est un logiciel libre (open source) conçu pour organiser et gérer des collections d’images. Développé par la fondation Digital Scholar (qui développe aussi Zotero et Omeka), il est principalement utilisé dans le domaine de la recherche en sciences humaines et sociales (même s’il est aussi apprécié par les usager·ère·s plus grand public des services d’archives comme les généalogistes. (voir Valmalle, 2021)).\nIl permet aux chercheur·es de classer, anoter, et organiser des photos et des documents numérisés, comme des archives ou des manuscrits, en vue de faciliter leur utilisation et leur éventuelle publication.\nPrincipales fonctionalités :\n\nCréation de projets pour organiser les images par collections et catégories (tags).\nAjout de métadonnées détaillées à chaque objet (item), image et zone d’image (sélection).\nPossibilité d’associer des annotations aux images et aux sélections.\nExportation des données sous forme de fichiers compatibles avec le web sémantique (format JSON-LD par défaut) ou avec d’autres logiciels (comme Zotero ou OmekaS avec les extensions dédiées).\n\n\n\n\n\nValmalle, Delphine. « Utiliser Tropy pour la gestion de ses photos d’archives », Blog Geneatech. 2021. En ligne : https://www.youtube.com/watch?v=AiPqbdwP67E [consulté le 22 septembre 2024].",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Accueil</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "PourquoiTropy.html",
     "title": "Pourquoi Tropy ?",
     "section": "",
-    "text": "Tropy n’est pas :",
+    "text": "Tropy n’est pas :\nTropy est un logiciel de bureau qui vous permet de stocker toutes vos photos localement et de travailler hors-connexion internet.\nSon point fort (outre ses interfaces de gestion et de visualistion de vos ressources photographiques) réside dans la gestion de métadonnées riches et interopérables.",
     "crumbs": [
       "Pourquoi Tropy ?"
     ]
@@ -89,7 +89,7 @@
     "href": "GuideNakala.html",
     "title": "Pour réutiliser ou partager son corpus",
     "section": "",
-    "text": "Exemple de Nakala\nNakala est l’entrepôt de données de HumaNum. Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).\nHuma-Num, dans la riche documentation de Nakala, a publié un Guide pour décrire ses données dans Nakala (Huma-Num, 2024).\nHuma-Num a aussi publié une fiche pdf imprimable d’aide au dépôt dans Nakala (mars 2024).",
+    "text": "Exemple de Nakala\nSi vous citez vos photos dans un document de recherche, vous pouvez avoir envie de les déposer dans un entrepôt de données (pour les partager, les réutiliser plus tard ou les archiver). Il convient alors d’adapter son modèle de saisie dans Tropy aux propriétés demandées ou disponibles dans l’entrepôt visé.\nNakala est l’entrepôt de données de HumaNum. Vos photos de recherche peuvent être considérées comme des données de recherche (surtout si vous les utilisez dans vos publications).\nHuma-Num, dans la riche documentation de Nakala, a publié un Guide pour décrire ses données dans Nakala (Huma-Num, 2024).\nHuma-Num a aussi publié une fiche pdf imprimable d’aide au dépôt dans Nakala (mars 2024).",
     "crumbs": [
       "Pourquoi Tropy ?",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pour réutiliser ou partager son corpus</span>"
@@ -121,7 +121,7 @@
     "href": "tropy-projet.html",
     "title": "Créer un projet",
     "section": "",
-    "text": "Menu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLui donner un nom\nChoisir le type (voir Lucchesi et al., 2023).\n\nStandard : Copie les photos dans le dossier du projet à l’import\nAdvanced : Lien vers les photos sur votre disque (/!\\)\n\nChoisir l’emplacement du projet sur son ordinateur\n\n\n\n\n\n\nSuggestion\n\n\n\nDans le dossier Images par défaut, un sous-dossier Tropy, puis un sous-dossier par projet.\n\n\n\n\n\n\nMenu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy 1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13 [consulté le 20 septembre 2024].",
+    "text": "Menu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLui donner un nom\nChoisir le type (voir Lucchesi et al., 2023).\n\nStandard : Copie les photos dans le dossier du projet à l’import\nAdvanced : Lien vers les photos sur votre disque (/!\\)\n\nChoisir l’emplacement du projet sur son ordinateur\n\n\n\n\n\n\nSuggestion\n\n\n\nDans le dossier Images par défaut, un sous-dossier Tropy, puis un sous-dossier par projet.\n\n\n\n\n\n\n\nLucchesi, Anita et Douglas McRae. « New Project Types in Tropy 1.13 », Blog Tropy blog. 2023. En ligne : https://tropy.org/blog/new-project-types-in-tropy-1-13 [consulté le 20 septembre 2024].",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Créer un projet</span>"
@@ -187,7 +187,7 @@
     "href": "tropy-modeles.html#exemple-du-projet-blot",
     "title": "Les modèles de saisie",
     "section": "Exemple du Projet Blot",
-    "text": "Exemple du Projet Blot\n\nTemplate BlotPhotosV2.ttp : Télécharger\nDescription dans le wiki du projet\n\n\n\n\nPréférences de Tropy &gt; Modèles de saisie\nNouveau modèle\nPropriété\nDupliquer",
+    "text": "Exemple du Projet Blot\n\nTemplate BlotPhotosV2.ttp : Télécharger\nDescription dans le wiki du projet",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Les modèles de saisie</span>"
@@ -198,7 +198,7 @@
     "href": "tropy-extensions.html",
     "title": "Les extensions (Plugins)",
     "section": "",
-    "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
+    "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Les extensions (*Plugins*)</span>"
@@ -264,7 +264,7 @@
     "href": "tropy-import.html#par-des-pluginsextensions",
     "title": "Importer des photos",
     "section": "Par des plugins/extensions",
-    "text": "Par des plugins/extensions\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (modèle de saisie) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\n\nListe de collections utilisant IIIF pour partager leurs ressources (IIIF Consortium, 2024)\n\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json\n\n\n\n\nPréférences de Tropy &gt; Paramètres\n\n\n\nIIIF Consortium. Guides to finding IIIF resources. 2024. En ligne : https://iiif.io/guides/finding_resources/ [consulté le 23 septembre 2024].",
+    "text": "Par des plugins/extensions\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (modèle de saisie) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\n\nListe de collections utilisant IIIF pour partager leurs ressources (IIIF Consortium, 2024)\n\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json\n\n\n\n\n\nIIIF Consortium. Guides to finding IIIF resources. 2024. En ligne : https://iiif.io/guides/finding_resources/ [consulté le 23 septembre 2024].",
     "crumbs": [
       "Prise en main",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Importer des photos</span>"
@@ -384,7 +384,7 @@
     "href": "iiif.html",
     "title": "Annexe B — Autour des standards IIIF",
     "section": "",
-    "text": "Importer dans Tropy des documents Gallica via le module IIIF",
+    "text": "Importer dans Tropy des documents Gallica via le module IIIF\nIIIF permet la manipulation homogène d’images indépendamment de leurs localisations physiques et des établissements qui les hébergent. (utilisé notamment sur Europeana1 , Gallica2, Nakala, de nombreux serveurs Omeka…)",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
